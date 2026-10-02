@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-277lF4BxgJ74qufgsiZ5+wAOOweZaaVuFAYIJpat8Nc='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-spmwARo1d4Ean/7W6L1Zo0frdU4TMBVjKDtxyEBTMgQ='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="no-referrer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -1705,7 +1705,7 @@ body{background:var(--bg);font-size:14px}
     <button class="mobile-nav-btn" data-page="updates"><i class="ti ti-sparkles" style="color:var(--violet-2)"></i> Updates</button>
     <div class="mobile-nav-section">Resources</div>
     <button class="mobile-nav-btn" data-browser="software"><i class="ti ti-brand-windows" style="color:var(--blue)"></i> Windows</button>
-    <button class="mobile-nav-btn" data-browser="mac"><i class="ti ti-brand-apple"></i> MacOS</button>
+    
     <button class="mobile-nav-btn" data-browser="extension"><i class="ti ti-puzzle" style="color:var(--green)"></i> Extensions &amp; Scripts</button>
     <button class="mobile-nav-btn" data-browser="plugin"><i class="ti ti-archive" style="color:var(--violet-2)"></i> Plugins AE</button>
     <button class="mobile-nav-btn" data-browser="ofx"><i class="ti ti-adjustments" style="color:#ff9f43"></i> OFX Plugins</button>
@@ -1735,7 +1735,7 @@ body{background:var(--bg);font-size:14px}
     <nav class="topnav-links">
       <button class="nav-btn active" id="nav-home">Home</button>
       <button class="nav-btn" id="nav-software">Windows</button>
-      <button class="nav-btn" id="nav-mac">Mac</button>
+      
       <button class="nav-btn" id="nav-extension">Extensions</button>
       <button class="nav-btn" id="nav-plugin">Plugins</button>
       <button class="nav-btn" id="nav-ofx">OFX</button>
@@ -1805,12 +1805,7 @@ body{background:var(--bg);font-size:14px}
         <div class="hcard-title">Windows</div>
         <div class="hcard-desc">Software and plugins for Windows.</div>
       </button>
-      <button class="hcard ripple-host" id="hcard-mac" data-tags="macos mac apple software plugins" style="--hcard-accent:var(--text-secondary)">
-        <div class="hcard-glow" style="--hcard-glow-color:rgba(130,130,160,.18)"></div>
-        <i class="ti ti-brand-apple hcard-icon ic-mac"></i>
-        <div class="hcard-title">MacOS</div>
-        <div class="hcard-desc">Software and plugins for Mac.</div>
-      </button>
+      
       <button class="hcard ripple-host" id="hcard-extension" data-tags="extensions scripts after effects ae jsx" style="--hcard-accent:var(--green)">
         <div class="hcard-glow" style="--hcard-glow-color:rgba(45,214,140,.16)"></div>
         <i class="ti ti-puzzle hcard-icon ic-ext"></i>
@@ -2243,7 +2238,6 @@ function filterHomeCards(q){
 var currentPath=[];
 var browserMeta={
   software:{title:'Windows',sub:'Software and plugins for Windows.',nav:'nav-software',folder:'software'},
-  mac:{title:'MacOS',sub:'Software and plugins for Mac.',nav:'nav-mac',folder:'Mac'},
   extension:{title:'Extensions & Scripts',sub:'Extensions and scripts for After Effects.',nav:'nav-extension',folder:'extension'},
   plugin:{title:'Plugins AE',sub:'Plugin collection for After Effects.',nav:'nav-plugin',folder:'plugin'},
   ofx:{title:'OFX Plugins',sub:'OFX plugins for Premiere, Resolve, etc.',nav:'nav-ofx',folder:'ofx plugin'},
@@ -2365,6 +2359,7 @@ function storageRead(key,fallback){try{var raw=localStorage.getItem(key);return(
 var vaultFavorites=storageRead('satvrn_favorites',[]);
 if(!Array.isArray(vaultFavorites))vaultFavorites=[];
 vaultFavorites=vaultFavorites.filter(function(s){return typeof s==='string'&&s.length<500}).slice(0,500);
+vaultFavorites=[...new Set(vaultFavorites.map(function(rel){var aliases={"ofx plugin/FilmConvert Bundle Win - satvrn.7z":"plugin/FilmConvert Bundle Win - satvrn.7z","ofx plugin/IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z":"plugin/IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z","ofx plugin/RedGiant.v2026.3.0 Win - satvrn.7z":"plugin/RedGiant.v2026.3.0 Win - satvrn.7z"};return Object.prototype.hasOwnProperty.call(aliases,rel)?aliases[rel]:rel}))];
 function saveFavorites(){try{localStorage.setItem('satvrn_favorites',JSON.stringify(vaultFavorites))}catch(e){showToast('Favorites could not be saved on this device.',false,true)}}
 function isSafeResourceUrl(value){try{var u=new URL(value);if(u.protocol!=='https:'||u.username||u.password||u.port)return false;return (u.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/releases\/download\//.test(u.pathname))||(u.hostname==='drive.google.com'&&/^\/file\/d\/[\w-]+\/view$/.test(u.pathname))||((u.hostname==='www.mediafire.com'||u.hostname==='mediafire.com')&&u.pathname.indexOf('/file/')===0)||(u.hostname==='mega.nz'&&/^\/file\/[\w-]{8}$/.test(u.pathname)&&/^#[\w-]{43}$/.test(u.hash))}catch(e){return false}}
 function validateVaultCatalog(tree){var total=0,seen=new Set();function scan(nodes,depth){if(!Array.isArray(nodes)||depth>10)throw Error('Invalid catalog');nodes.forEach(function(n){if(++total>5000||!n||typeof n.name!=='string'||n.name.length>500||typeof n.rel!=='string'||n.rel.length>1000||seen.has(n.rel))throw Error('Invalid resource');seen.add(n.rel);if(n.children)scan(n.children,depth+1);else{if(!Number.isSafeInteger(n.size)||n.size<0||!Array.isArray(n.links)||n.links.length>10)throw Error('Invalid metadata');n.links.forEach(function(l){if(!l||typeof l.provider!=='string'||l.provider.length>40||!isSafeResourceUrl(l.url))throw Error('Invalid download destination')});if(n.status==='ready'&&!n.links.length)throw Error('Missing ready link')}})}scan(tree,0);return tree}
@@ -2405,14 +2400,14 @@ function init(){
 
   document.getElementById('btn-notify').addEventListener('click',goUpdates);
   document.getElementById('nav-home').addEventListener('click',goHome);
-  ['software','mac','extension','plugin','ofx','premiere','scripts','payhips','archive'].forEach(function(s){document.getElementById('nav-'+s).addEventListener('click',function(){goBrowser(s)})});
+  ['software','extension','plugin','ofx','premiere','scripts','payhips','archive'].forEach(function(s){document.getElementById('nav-'+s).addEventListener('click',function(){goBrowser(s)})});
   document.getElementById('nav-guide').addEventListener('click',goGuide);
   document.getElementById('nav-updates').addEventListener('click',goUpdates);
 
   document.getElementById('btn-guide').addEventListener('click',goGuide);
   document.getElementById('btn-archive').addEventListener('click',function(){goBrowser('archive')});
   document.getElementById('btn-updates').addEventListener('click',goUpdates);
-  ['software','mac','extension','plugin','ofx','premiere','scripts','payhips','archive'].forEach(function(s){document.getElementById('hcard-'+s).addEventListener('click',function(){goBrowser(s)})});
+  ['software','extension','plugin','ofx','premiere','scripts','payhips','archive'].forEach(function(s){document.getElementById('hcard-'+s).addEventListener('click',function(){goBrowser(s)})});
   document.getElementById('hcard-guide').addEventListener('click',goGuide);
 
 
