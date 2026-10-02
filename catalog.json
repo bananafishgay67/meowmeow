@@ -1108,8 +1108,13 @@
         "type": "file",
         "size": 3451254595,
         "mtime": "2026-06-24T17:20:42.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/UB1gXLoK#lY09-hol9oJrS5acAYX8Ae1B-0DqyV9g7sr2mp3GvnA"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1165,8 +1170,13 @@
         "type": "file",
         "size": 7527685609,
         "mtime": "2026-06-28T14:31:07.827Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/hJdljCQb#0Ak7_wZRL7Z50PlsMvc_daJQc3zbnL-sAR07GwwOmGM"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2461,8 +2471,13 @@
         "type": "file",
         "size": 3451254595,
         "mtime": "2026-06-24T16:57:13.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/UB1gXLoK#lY09-hol9oJrS5acAYX8Ae1B-0DqyV9g7sr2mp3GvnA"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3780,8 +3795,13 @@
         "type": "file",
         "size": 3745821987,
         "mtime": "2026-06-24T17:30:50.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/AdtyhZJK#sqO24QAWDwoo-IzdFZln2oQC-7s2xWkAEqQBMgmJWQM"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3857,8 +3877,13 @@
         "type": "file",
         "size": 3522278430,
         "mtime": "2026-06-24T17:15:07.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/EM11UbzJ#nv4WX7S7RQQ3rXwmSNPJTK9xJy0aTVYb5DQtvERx7Og"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
