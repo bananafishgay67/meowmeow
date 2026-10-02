@@ -1127,8 +1127,13 @@
         "type": "file",
         "size": 442832972,
         "mtime": "2026-06-24T16:47:10.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/r5a69w7qyx2tl9b/BSKL_Suite_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3102,8 +3107,13 @@
         "type": "file",
         "size": 691602940,
         "mtime": "2026-06-24T16:55:50.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/vy5jy1d7ltk4n0s/MAGIX.VEGAS.Pro.v23.0.0.278.Incl.Emulator-R2R_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
