@@ -1,0 +1,2501 @@
+[
+  {
+    "name": "extension",
+    "rel": "extension",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Aescript imgPaster V1 - satvrn.zip",
+        "rel": "extension/Aescript imgPaster V1 - satvrn.zip",
+        "type": "file",
+        "size": 187010,
+        "mtime": "2026-06-24T16:55:50.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Aescripts - Dresser - satvrn.zip",
+        "rel": "extension/Aescripts - Dresser - satvrn.zip",
+        "type": "file",
+        "size": 6136528,
+        "mtime": "2026-06-24T16:54:29.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Aescripts Bleed v1.5 - satvrn.zip",
+        "rel": "extension/Aescripts Bleed v1.5 - satvrn.zip",
+        "type": "file",
+        "size": 3182340,
+        "mtime": "2026-06-24T16:53:38.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Aescripts Liquids 1.0 - satvrn.zip",
+        "rel": "extension/Aescripts Liquids 1.0 - satvrn.zip",
+        "type": "file",
+        "size": 2524867,
+        "mtime": "2026-06-24T16:56:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "AEviewer Pro V2.2 - satvrn.zip",
+        "rel": "extension/AEviewer Pro V2.2 - satvrn.zip",
+        "type": "file",
+        "size": 142742058,
+        "mtime": "2026-06-24T16:54:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Anubis1.0.4 - satvrn.zip",
+        "rel": "extension/Anubis1.0.4 - satvrn.zip",
+        "type": "file",
+        "size": 34781120,
+        "mtime": "2026-06-24T16:53:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Battle Axe Overlord v1.27 - satvrn.zip",
+        "rel": "extension/Battle Axe Overlord v1.27 - satvrn.zip",
+        "type": "file",
+        "size": 859331,
+        "mtime": "2026-06-24T16:57:09.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BeatEdit Bundle 2 Win Mac - satvrn.zip",
+        "rel": "extension/BeatEdit Bundle 2 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 32710232,
+        "mtime": "2026-06-24T16:53:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Camera3D Toolkit Pro 2.2 - satvrn.7z",
+        "rel": "extension/Camera3D Toolkit Pro 2.2 - satvrn.7z",
+        "type": "file",
+        "size": 76404,
+        "mtime": "2026-06-24T16:53:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "ChromeFX 1.0.0 - satvrn.7z",
+        "rel": "extension/ChromeFX 1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 108493267,
+        "mtime": "2026-06-24T16:55:09.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "CRT EMULATOR - satvrn.zip",
+        "rel": "extension/CRT EMULATOR - satvrn.zip",
+        "type": "file",
+        "size": 55432205,
+        "mtime": "2026-06-24T16:54:30.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "CutnPack 1.0.0 - satvrn.7z",
+        "rel": "extension/CutnPack 1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 730342,
+        "mtime": "2026-06-24T16:54:00.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Cyclops 3.0.8 - satvrn.zip",
+        "rel": "extension/Cyclops 3.0.8 - satvrn.zip",
+        "type": "file",
+        "size": 29430602,
+        "mtime": "2026-06-24T16:54:36.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Datamosh 2 v2.6.1 Win Mac - satvrn.zip",
+        "rel": "extension/Datamosh 2 v2.6.1 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 142164501,
+        "mtime": "2026-06-24T16:56:22.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Deekay Tool v1.1.5 - satvrn.zip",
+        "rel": "extension/Deekay Tool v1.1.5 - satvrn.zip",
+        "type": "file",
+        "size": 7917233,
+        "mtime": "2026-06-24T16:54:25.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dupli-Kit v1.1 - satvrn.zip",
+        "rel": "extension/Dupli-Kit v1.1 - satvrn.zip",
+        "type": "file",
+        "size": 1709863,
+        "mtime": "2026-06-24T16:54:31.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "DynamicShadow 2 - satvrn.zip",
+        "rel": "extension/DynamicShadow 2 - satvrn.zip",
+        "type": "file",
+        "size": 4350706,
+        "mtime": "2026-06-24T16:54:37.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "expressCode 1.0.0 - satvrn.7z",
+        "rel": "extension/expressCode 1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 6346148,
+        "mtime": "2026-06-24T16:54:47.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Face 3D v1.1.0 WinMac - satvrn.zip",
+        "rel": "extension/Face 3D v1.1.0 WinMac - satvrn.zip",
+        "type": "file",
+        "size": 3479382,
+        "mtime": "2026-06-24T16:54:53.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Flow 1.5.2 - satvrn.zip",
+        "rel": "extension/Flow 1.5.2 - satvrn.zip",
+        "type": "file",
+        "size": 38153924,
+        "mtime": "2026-06-24T16:55:12.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Flow v1.4.2 - satvrn.zip",
+        "rel": "extension/Flow v1.4.2 - satvrn.zip",
+        "type": "file",
+        "size": 1733066,
+        "mtime": "2026-06-24T16:55:02.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Flowers Bloom 1.1.2 - satvrn.7z",
+        "rel": "extension/Flowers Bloom 1.1.2 - satvrn.7z",
+        "type": "file",
+        "size": 427304530,
+        "mtime": "2026-06-24T16:59:25.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Fractal.Noise.Browser.1.0.1 - satvrn.7z",
+        "rel": "extension/Fractal.Noise.Browser.1.0.1 - satvrn.7z",
+        "type": "file",
+        "size": 28003674,
+        "mtime": "2026-06-24T16:55:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FredPelle VHScam 1.1.0 - satvrn.7z",
+        "rel": "extension/FredPelle VHScam 1.1.0 - satvrn.7z",
+        "type": "file",
+        "size": 96302149,
+        "mtime": "2026-06-24T16:59:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FX console",
+        "rel": "extension/FX console",
+        "type": "folder",
+        "children": [
+          {
+            "name": "console.txt",
+            "rel": "extension/FX console/console.txt",
+            "type": "file",
+            "size": 71,
+            "mtime": "2026-06-24T16:55:33.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "GEOlayers 3 v1.14.1.1 - satvrn.7z",
+        "rel": "extension/GEOlayers 3 v1.14.1.1 - satvrn.7z",
+        "type": "file",
+        "size": 9378745,
+        "mtime": "2026-06-24T16:55:46.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Jerryflow V2 - satvrn.zip",
+        "rel": "extension/Jerryflow V2 - satvrn.zip",
+        "type": "file",
+        "size": 37395047,
+        "mtime": "2026-06-24T16:56:28.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Karton v1.2.2 Win Mac - satvrn.zip",
+        "rel": "extension/Karton v1.2.2 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 1710736,
+        "mtime": "2026-06-24T16:56:07.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "kbar v3.1.1 - satvrn.zip",
+        "rel": "extension/kbar v3.1.1 - satvrn.zip",
+        "type": "file",
+        "size": 6146192,
+        "mtime": "2026-06-24T16:56:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "LoFi - satvrn.zip",
+        "rel": "extension/LoFi - satvrn.zip",
+        "type": "file",
+        "size": 142522925,
+        "mtime": "2026-06-24T16:58:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Matrix - satvrn.zip",
+        "rel": "extension/Matrix - satvrn.zip",
+        "type": "file",
+        "size": 18073985,
+        "mtime": "2026-06-24T16:57:03.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Matte Tool v1.7 - satvrn.zip",
+        "rel": "extension/Matte Tool v1.7 - satvrn.zip",
+        "type": "file",
+        "size": 1409437,
+        "mtime": "2026-06-24T16:56:39.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Mobar 3.1.0 Win Mac - satvrn.zip",
+        "rel": "extension/Mobar 3.1.0 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 8624208,
+        "mtime": "2026-06-24T16:56:45.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Motion Bro Win Mac - satvrn.zip",
+        "rel": "extension/Motion Bro Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 1666641585,
+        "mtime": "2026-06-24T17:09:07.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Motion Tools Pro v2.0.15 - satvrn.7z",
+        "rel": "extension/Motion Tools Pro v2.0.15 - satvrn.7z",
+        "type": "file",
+        "size": 7747321,
+        "mtime": "2026-06-24T16:56:55.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "MoveAnchorPoint 4 - satvrn.zip",
+        "rel": "extension/MoveAnchorPoint 4 - satvrn.zip",
+        "type": "file",
+        "size": 1875267,
+        "mtime": "2026-06-24T16:56:57.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "MXM v1.0.1 Win Mac - satvrn.zip",
+        "rel": "extension/MXM v1.0.1 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 434244210,
+        "mtime": "2026-06-24T17:03:25.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "NovelPro v1.0.4 - satvrn.7z",
+        "rel": "extension/NovelPro v1.0.4 - satvrn.7z",
+        "type": "file",
+        "size": 3074759,
+        "mtime": "2026-06-24T16:57:06.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "PrimeTools 0.0.1 - satvrn.zip",
+        "rel": "extension/PrimeTools 0.0.1 - satvrn.zip",
+        "type": "file",
+        "size": 255663226,
+        "mtime": "2026-06-24T16:58:56.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Pro IO 2.17.6 Win Mac - satvrn.zip",
+        "rel": "extension/Pro IO 2.17.6 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 3163435,
+        "mtime": "2026-06-24T16:57:20.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Project.Sorter.1.7.3.1 - satvrn.7z",
+        "rel": "extension/Project.Sorter.1.7.3.1 - satvrn.7z",
+        "type": "file",
+        "size": 1054907,
+        "mtime": "2026-06-24T16:57:24.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Railcut v1.0.0 - satvrn.7z",
+        "rel": "extension/Railcut v1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 40868657,
+        "mtime": "2026-06-24T16:58:07.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "REACH Pro 3.0.00 - satvrn.7z",
+        "rel": "extension/REACH Pro 3.0.00 - satvrn.7z",
+        "type": "file",
+        "size": 1276866,
+        "mtime": "2026-06-24T16:57:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Rollback8 Pro - satvrn.zip",
+        "rel": "extension/Rollback8 Pro - satvrn.zip",
+        "type": "file",
+        "size": 682887755,
+        "mtime": "2026-06-24T17:03:41.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Shake Sauce - satvrn.zip",
+        "rel": "extension/Shake Sauce - satvrn.zip",
+        "type": "file",
+        "size": 293010606,
+        "mtime": "2026-06-24T16:59:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Soft Body 2 - satvrn.zip",
+        "rel": "extension/Soft Body 2 - satvrn.zip",
+        "type": "file",
+        "size": 1859389,
+        "mtime": "2026-06-24T16:57:51.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Textlab Pro 1.0.0 - satvrn.7z",
+        "rel": "extension/Textlab Pro 1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 1923269,
+        "mtime": "2026-06-24T16:57:56.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "uwu",
+        "rel": "extension/uwu",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Uwu.txt",
+            "rel": "extension/uwu/Uwu.txt",
+            "type": "file",
+            "size": 24,
+            "mtime": "2026-06-24T16:58:19.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "XOscillator Pro 1.0.0 - satvrn.7z",
+        "rel": "extension/XOscillator Pro 1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 712824,
+        "mtime": "2026-06-24T16:58:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "Mac",
+    "rel": "Mac",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "ofx plugin",
+    "rel": "ofx plugin",
+    "type": "folder",
+    "children": [
+      {
+        "name": "BorisFX Continuum 2026 OFX v19.0.0 win - satvrn.7z",
+        "rel": "ofx plugin/BorisFX Continuum 2026 OFX v19.0.0 win - satvrn.7z",
+        "type": "file",
+        "size": 3062072995,
+        "mtime": "2026-06-24T17:05:52.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BulletTime1.1.14 OFX Win - satvrn.zip",
+        "rel": "ofx plugin/BulletTime1.1.14 OFX Win - satvrn.zip",
+        "type": "file",
+        "size": 7384419,
+        "mtime": "2026-06-24T16:48:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dehancer Pro OFX 7.3.1 Win - satvrn.7z",
+        "rel": "ofx plugin/Dehancer Pro OFX 7.3.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 92756386,
+        "mtime": "2026-06-24T16:49:16.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dust Transition OFX 1.1.1 Win - satvrn.7z",
+        "rel": "ofx plugin/Dust Transition OFX 1.1.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 1188082,
+        "mtime": "2026-06-24T16:48:34.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FilmConvert Bundle Win - satvrn.7z",
+        "rel": "ofx plugin/FilmConvert Bundle Win - satvrn.7z",
+        "type": "file",
+        "size": 2022,
+        "mtime": "2026-06-24T16:47:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FilmConvert.OFX.v2.20.CE Win VEGAS - satvrn.zip",
+        "rel": "ofx plugin/FilmConvert.OFX.v2.20.CE Win VEGAS - satvrn.zip",
+        "type": "file",
+        "size": 121140975,
+        "mtime": "2026-06-24T16:48:44.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
+        "rel": "ofx plugin/IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
+        "type": "file",
+        "size": 403007491,
+        "mtime": "2026-06-24T16:51:49.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Mocha Pro 2026.0 OFX Win - satvrn.7z",
+        "rel": "ofx plugin/Mocha Pro 2026.0 OFX Win - satvrn.7z",
+        "type": "file",
+        "size": 1235254506,
+        "mtime": "2026-06-24T16:58:15.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "RedGiant.v2026.3.0 Win - satvrn.7z",
+        "rel": "ofx plugin/RedGiant.v2026.3.0 Win - satvrn.7z",
+        "type": "file",
+        "size": 3451254595,
+        "mtime": "2026-06-24T17:20:42.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Sapphire OFX 2026 Win - satvrn.7z",
+        "rel": "ofx plugin/Sapphire OFX 2026 Win - satvrn.7z",
+        "type": "file",
+        "size": 1485340025,
+        "mtime": "2026-06-24T16:59:04.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Twixtor v8.1.0 OFX Win - satvrn.7z",
+        "rel": "ofx plugin/Twixtor v8.1.0 OFX Win - satvrn.7z",
+        "type": "file",
+        "size": 22620401,
+        "mtime": "2026-06-24T16:47:34.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "payhip",
+    "rel": "payhip",
+    "type": "folder",
+    "children": []
+  },
+  {
+    "name": "payhips",
+    "rel": "payhips",
+    "type": "folder",
+    "children": [
+      {
+        "name": "FAYN EDITING COURSE 2026 - 6ure.rar",
+        "rel": "payhips/FAYN EDITING COURSE 2026 - 6ure.rar",
+        "type": "file",
+        "size": 7527685609,
+        "mtime": "2026-06-28T14:31:07.827Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FAYN ULTIMATE EDITINGSFX PACK 2 - 6ure.rar",
+        "rel": "payhips/FAYN ULTIMATE EDITINGSFX PACK 2 - 6ure.rar",
+        "type": "file",
+        "size": 7955213437,
+        "mtime": "2026-06-28T14:54:41.344Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "hlx.ae_arcane_cc_+_topaz_settings.zip",
+        "rel": "payhips/hlx.ae_arcane_cc_+_topaz_settings.zip",
+        "type": "file",
+        "size": 158715,
+        "mtime": "2026-06-28T15:24:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "plugin",
+    "rel": "plugin",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Aescripts VariFont 2 Win Mac - satvrn.zip",
+        "rel": "plugin/Aescripts VariFont 2 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 17070422,
+        "mtime": "2026-06-24T16:46:35.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "AfterCodecs v1.12.1 Win - satvrn.7z",
+        "rel": "plugin/AfterCodecs v1.12.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 10561617,
+        "mtime": "2026-06-24T16:39:16.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "AndrewYang Bundle 260215 Win - satvrn.7z",
+        "rel": "plugin/AndrewYang Bundle 260215 Win - satvrn.7z",
+        "type": "file",
+        "size": 374051,
+        "mtime": "2026-06-24T16:43:28.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "AutoFill v2.0.2 Win Mac - satvrn.zip",
+        "rel": "plugin/AutoFill v2.0.2 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 121609788,
+        "mtime": "2026-06-24T16:40:36.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Autokroma.bundle.2025.7 Win - satvrn.7z",
+        "rel": "plugin/Autokroma.bundle.2025.7 Win - satvrn.7z",
+        "type": "file",
+        "size": 31024350,
+        "mtime": "2026-06-24T16:39:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BallPoint 1.2.1 Win.7z",
+        "rel": "plugin/BallPoint 1.2.1 Win.7z",
+        "type": "file",
+        "size": 3071330,
+        "mtime": "2026-06-24T16:41:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BAO plugins bundle 2025.5 Win - satvrn.7z",
+        "rel": "plugin/BAO plugins bundle 2025.5 Win - satvrn.7z",
+        "type": "file",
+        "size": 6925520,
+        "mtime": "2026-06-24T16:43:00.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Bendio v1.0.1 Win - satvrn.zip",
+        "rel": "plugin/Bendio v1.0.1 Win - satvrn.zip",
+        "type": "file",
+        "size": 173633,
+        "mtime": "2026-06-24T16:43:45.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Bevelizer 1.0.1 Win - satvrn.7z",
+        "rel": "plugin/Bevelizer 1.0.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 27287116,
+        "mtime": "2026-06-24T16:43:27.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BorisFX Sapphire AE WIN 2026.0 - satvrn.7z",
+        "rel": "plugin/BorisFX Sapphire AE WIN 2026.0 - satvrn.7z",
+        "type": "file",
+        "size": 1465462492,
+        "mtime": "2026-06-24T16:45:10.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BorisFX Silhouette 2025.5.1 WIN - satvrn.7z",
+        "rel": "plugin/BorisFX Silhouette 2025.5.1 WIN - satvrn.7z",
+        "type": "file",
+        "size": 3987820771,
+        "mtime": "2026-06-24T17:31:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "BSKL Suite Win - satvrn.zip",
+        "rel": "plugin/BSKL Suite Win - satvrn.zip",
+        "type": "file",
+        "size": 442832972,
+        "mtime": "2026-06-24T16:47:10.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Cartoon Moblur v1.6.3 Win Mac - satvrn.zip",
+        "rel": "plugin/Cartoon Moblur v1.6.3 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 2998994,
+        "mtime": "2026-06-24T16:39:53.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "color abberation",
+        "rel": "plugin/color abberation",
+        "type": "folder",
+        "children": [
+          {
+            "name": "color abberation.txt",
+            "rel": "plugin/color abberation/color abberation.txt",
+            "type": "file",
+            "size": 49,
+            "mtime": "2026-06-24T16:41:13.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "Color Llama 1.1.0 Win - satvrn.7z",
+        "rel": "plugin/Color Llama 1.1.0 Win - satvrn.7z",
+        "type": "file",
+        "size": 864794,
+        "mtime": "2026-06-24T16:43:49.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Colour Scheme Generator Win Mac - satvrn.zip",
+        "rel": "plugin/Colour Scheme Generator Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 70147,
+        "mtime": "2026-06-24T16:43:54.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Composite Brush 1.6.7 Win Mac - satvrn.zip",
+        "rel": "plugin/Composite Brush 1.6.7 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 11835090,
+        "mtime": "2026-06-24T16:44:02.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Continuum 2026.Adobe .v19.0.1 Win - satvrn.7z",
+        "rel": "plugin/Continuum 2026.Adobe .v19.0.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 3051516932,
+        "mtime": "2026-06-24T17:00:52.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Crates Godrays & Light Wrap Win Mac - satvrn.zip",
+        "rel": "plugin/Crates Godrays & Light Wrap Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 398061,
+        "mtime": "2026-06-24T16:43:34.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "CROSSPHERE Bokeh 1.4.1 win - satvrn.7z",
+        "rel": "plugin/CROSSPHERE Bokeh 1.4.1 win - satvrn.7z",
+        "type": "file",
+        "size": 1490869,
+        "mtime": "2026-06-24T16:41:51.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Crossphere Plugins Bundle WIN - satvrn.7z",
+        "rel": "plugin/Crossphere Plugins Bundle WIN - satvrn.7z",
+        "type": "file",
+        "size": 12390214,
+        "mtime": "2026-06-24T16:41:50.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "CycoreFX.bundle.v1.3.2 Win - satvrn.7z",
+        "rel": "plugin/CycoreFX.bundle.v1.3.2 Win - satvrn.7z",
+        "type": "file",
+        "size": 9133376,
+        "mtime": "2026-06-24T16:44:05.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Deep Glow 2 v1.1.0 Win Mac - satvrn.zip",
+        "rel": "plugin/Deep Glow 2 v1.1.0 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 3533063,
+        "mtime": "2026-06-24T16:39:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Deep Glow v1.6.6 Win Mac - satvrn.zip",
+        "rel": "plugin/Deep Glow v1.6.6 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 954316,
+        "mtime": "2026-06-24T16:40:02.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dehancer Pro 7.3.4 Adobe Win - satvrn.7z",
+        "rel": "plugin/Dehancer Pro 7.3.4 Adobe Win - satvrn.7z",
+        "type": "file",
+        "size": 309119698,
+        "mtime": "2026-06-24T16:46:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Depth Scanner 2 v2.4.42 Win - satvrn.7z",
+        "rel": "plugin/Depth Scanner 2 v2.4.42 Win - satvrn.7z",
+        "type": "file",
+        "size": 3416659,
+        "mtime": "2026-06-24T16:42:33.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Despill Maestro 1.0.0 Win - satvrn.7z",
+        "rel": "plugin/Despill Maestro 1.0.0 Win - satvrn.7z",
+        "type": "file",
+        "size": 2250309,
+        "mtime": "2026-06-24T16:44:12.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "DigiEffects.Suite.v3.0.CE Win - satvrn.zip",
+        "rel": "plugin/DigiEffects.Suite.v3.0.CE Win - satvrn.zip",
+        "type": "file",
+        "size": 15971576,
+        "mtime": "2026-06-24T16:44:25.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Diopter 1.0.5 Win - satvrn.zip",
+        "rel": "plugin/Diopter 1.0.5 Win - satvrn.zip",
+        "type": "file",
+        "size": 22788232,
+        "mtime": "2026-06-24T16:44:22.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Discotext v1.2.6 Win Mac - satvrn.zip",
+        "rel": "plugin/Discotext v1.2.6 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 3347840,
+        "mtime": "2026-06-24T16:40:08.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Displacer Pro v1.5.0 Win Mac - satvrn.zip",
+        "rel": "plugin/Displacer Pro v1.5.0 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 236730,
+        "mtime": "2026-06-24T16:40:11.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dust Transition 1.1.0. Adobe Win - satvrn.7z",
+        "rel": "plugin/Dust Transition 1.1.0. Adobe Win - satvrn.7z",
+        "type": "file",
+        "size": 1173808,
+        "mtime": "2026-06-24T16:44:26.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Element 3D 2.2.3 Win - satvrn.zip",
+        "rel": "plugin/Element 3D 2.2.3 Win - satvrn.zip",
+        "type": "file",
+        "size": 305863029,
+        "mtime": "2026-06-24T16:39:22.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Extrude Win - satvrn.zip",
+        "rel": "plugin/Extrude Win - satvrn.zip",
+        "type": "file",
+        "size": 967447,
+        "mtime": "2026-06-24T16:40:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FilmConvert Bundle Win - satvrn.7z",
+        "rel": "plugin/FilmConvert Bundle Win - satvrn.7z",
+        "type": "file",
+        "size": 2022,
+        "mtime": "2026-06-24T16:42:48.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FluidMap (WIN) - satvrn.zip",
+        "rel": "plugin/FluidMap (WIN) - satvrn.zip",
+        "type": "file",
+        "size": 160203,
+        "mtime": "2026-06-24T16:44:30.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Frischluft Win - satvrn.zip",
+        "rel": "plugin/Frischluft Win - satvrn.zip",
+        "type": "file",
+        "size": 2723751,
+        "mtime": "2026-06-24T16:43:14.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Furikake 1.0.5 Win - satvrn.7z",
+        "rel": "plugin/Furikake 1.0.5 Win - satvrn.7z",
+        "type": "file",
+        "size": 516315,
+        "mtime": "2026-06-24T16:44:35.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Glitchify Win Mac - satvrn.7z",
+        "rel": "plugin/Glitchify Win Mac - satvrn.7z",
+        "type": "file",
+        "size": 992063,
+        "mtime": "2026-06-24T16:41:29.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "HeatDistortion Win - satvrn.zip",
+        "rel": "plugin/HeatDistortion Win - satvrn.zip",
+        "type": "file",
+        "size": 2444624,
+        "mtime": "2026-06-24T16:37:53.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "HitFilm Plugins Win - satvrn.zip",
+        "rel": "plugin/HitFilm Plugins Win - satvrn.zip",
+        "type": "file",
+        "size": 22698997,
+        "mtime": "2026-06-24T16:44:47.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "I Ate Mushrooms v6.24 Win - satvrn.zip",
+        "rel": "plugin/I Ate Mushrooms v6.24 Win - satvrn.zip",
+        "type": "file",
+        "size": 14547200,
+        "mtime": "2026-06-24T16:42:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
+        "rel": "plugin/IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
+        "type": "file",
+        "size": 403007491,
+        "mtime": "2026-06-24T16:47:32.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Influx v1.6.1 Win - satvrn.7z",
+        "rel": "plugin/Influx v1.6.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 10832225,
+        "mtime": "2026-06-24T16:39:21.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "irrealix Bundle 260215 Win.7z",
+        "rel": "plugin/irrealix Bundle 260215 Win.7z",
+        "type": "file",
+        "size": 5823133,
+        "mtime": "2026-06-24T16:42:29.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "JPEG Glitch v1.0.4 Win - satvrn.zip",
+        "rel": "plugin/JPEG Glitch v1.0.4 Win - satvrn.zip",
+        "type": "file",
+        "size": 9933660,
+        "mtime": "2026-06-24T16:39:31.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "L3tt3rM4pp3r2 v2.8 Win - satvrn.zip",
+        "rel": "plugin/L3tt3rM4pp3r2 v2.8 Win - satvrn.zip",
+        "type": "file",
+        "size": 2200339,
+        "mtime": "2026-06-24T16:43:06.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Lockdown v2.8.7 Win - satvrn.zip",
+        "rel": "plugin/Lockdown v2.8.7 Win - satvrn.zip",
+        "type": "file",
+        "size": 20904818,
+        "mtime": "2026-06-24T16:44:55.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Mask Prompter 3 v3.0.3 Win Mac - satvrn.zip",
+        "rel": "plugin/Mask Prompter 3 v3.0.3 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 136557075,
+        "mtime": "2026-06-24T16:43:42.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Memleak 1.1.1 Win - satvrn.zip",
+        "rel": "plugin/Memleak 1.1.1 Win - satvrn.zip",
+        "type": "file",
+        "size": 111618118,
+        "mtime": "2026-06-24T16:45:51.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Mettle Plugins bundle WIN 2024.2 - satvrn.7z",
+        "rel": "plugin/Mettle Plugins bundle WIN 2024.2 - satvrn.7z",
+        "type": "file",
+        "size": 173248634,
+        "mtime": "2026-06-24T16:43:23.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Mocha Pro Adobe .2026.0.1 Win - satvrn.7z",
+        "rel": "plugin/Mocha Pro Adobe .2026.0.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 1238643639,
+        "mtime": "2026-06-24T16:43:39.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Modulation v2.1 Win - satvrn.zip",
+        "rel": "plugin/Modulation v2.1 Win - satvrn.zip",
+        "type": "file",
+        "size": 6808856,
+        "mtime": "2026-06-24T16:39:35.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Neat Video Pro Win - satvrn.zip",
+        "rel": "plugin/Neat Video Pro Win - satvrn.zip",
+        "type": "file",
+        "size": 17543254,
+        "mtime": "2026-06-24T16:45:05.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Newton 4.0 Win - satvrn.zip",
+        "rel": "plugin/Newton 4.0 Win - satvrn.zip",
+        "type": "file",
+        "size": 14595089,
+        "mtime": "2026-06-24T16:45:07.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "olm",
+        "rel": "plugin/olm",
+        "type": "folder",
+        "children": [
+          {
+            "name": "OLM plugins.txt",
+            "rel": "plugin/olm/OLM plugins.txt",
+            "type": "file",
+            "size": 53,
+            "mtime": "2026-06-24T16:45:29.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "OMINO SUITE",
+        "rel": "plugin/OMINO SUITE",
+        "type": "folder",
+        "children": [
+          {
+            "name": "omino suite.txt",
+            "rel": "plugin/OMINO SUITE/omino suite.txt",
+            "type": "file",
+            "size": 24,
+            "mtime": "2026-06-24T16:45:53.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "PathBlurFX Win - satvrn.7z",
+        "rel": "plugin/PathBlurFX Win - satvrn.7z",
+        "type": "file",
+        "size": 130371,
+        "mtime": "2026-06-24T16:46:01.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Physarum v1.3 Win Mac - satvrn.7z",
+        "rel": "plugin/Physarum v1.3 Win Mac - satvrn.7z",
+        "type": "file",
+        "size": 3013162,
+        "mtime": "2026-06-24T16:39:39.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "PixDither Win - satvrn.zip",
+        "rel": "plugin/PixDither Win - satvrn.zip",
+        "type": "file",
+        "size": 176486,
+        "mtime": "2026-06-24T16:46:08.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Pixel Extender 1.0 - satvrn.7z",
+        "rel": "plugin/Pixel Extender 1.0 - satvrn.7z",
+        "type": "file",
+        "size": 167839,
+        "mtime": "2026-06-24T16:46:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Pixel Sorter Studio Bundle (WIN).zip",
+        "rel": "plugin/Pixel Sorter Studio Bundle (WIN).zip",
+        "type": "file",
+        "size": 7748764,
+        "mtime": "2026-06-24T16:41:40.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Polytrace Win Mac - satvrn.zip",
+        "rel": "plugin/Polytrace Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 367887,
+        "mtime": "2026-06-24T16:41:27.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Pro Shaders 1 Win Mac - satvrn.zip",
+        "rel": "plugin/Pro Shaders 1 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 198784930,
+        "mtime": "2026-06-24T16:39:30.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Pro Shaders 2 Win Mac - satvrn.zip",
+        "rel": "plugin/Pro Shaders 2 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 2192867305,
+        "mtime": "2026-06-24T16:50:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "ProductionCrate LaForge Suite Win 1.4.8.1 - satvrn.7z",
+        "rel": "plugin/ProductionCrate LaForge Suite Win 1.4.8.1 - satvrn.7z",
+        "type": "file",
+        "size": 29674210,
+        "mtime": "2026-06-24T16:43:52.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "RedGiant.v2026.3.0 Win - satvrn.7z",
+        "rel": "plugin/RedGiant.v2026.3.0 Win - satvrn.7z",
+        "type": "file",
+        "size": 3451254595,
+        "mtime": "2026-06-24T16:57:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "RetroDither v1.10 Win - satvrn.zip",
+        "rel": "plugin/RetroDither v1.10 Win - satvrn.zip",
+        "type": "file",
+        "size": 828928,
+        "mtime": "2026-06-24T16:43:10.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "REVisionFX bundle 23.08 WIN - satvrn.zip",
+        "rel": "plugin/REVisionFX bundle 23.08 WIN - satvrn.zip",
+        "type": "file",
+        "size": 84828740,
+        "mtime": "2026-06-24T16:38:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "REVisionFX.Effections.Plus.v25.08 Win - satvrn.7z",
+        "rel": "plugin/REVisionFX.Effections.Plus.v25.08 Win - satvrn.7z",
+        "type": "file",
+        "size": 163575680,
+        "mtime": "2026-06-24T16:38:35.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Rowbyte Plugins Bundle 2025.8 Win - satvrn.7z",
+        "rel": "plugin/Rowbyte Plugins Bundle 2025.8 Win - satvrn.7z",
+        "type": "file",
+        "size": 12559664,
+        "mtime": "2026-06-24T16:41:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "saber",
+        "rel": "plugin/saber",
+        "type": "folder",
+        "children": [
+          {
+            "name": "saber.txt",
+            "rel": "plugin/saber/saber.txt",
+            "type": "file",
+            "size": 83,
+            "mtime": "2026-06-24T16:38:33.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "Satori Bundle Win 250912.1 - satvrn.7z",
+        "rel": "plugin/Satori Bundle Win 250912.1 - satvrn.7z",
+        "type": "file",
+        "size": 3482540,
+        "mtime": "2026-06-24T16:42:33.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Shadow Studio 3 v1.0.7 Win Mac - satvrn.zip",
+        "rel": "plugin/Shadow Studio 3 v1.0.7 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 59765356,
+        "mtime": "2026-06-24T16:40:47.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Signal 1.2.3 Win - satvrn.zip",
+        "rel": "plugin/Signal 1.2.3 Win - satvrn.zip",
+        "type": "file",
+        "size": 322985,
+        "mtime": "2026-06-24T16:39:53.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Superluminal.Stardust.1.6.0c Win - satvrn.zip",
+        "rel": "plugin/Superluminal.Stardust.1.6.0c Win - satvrn.zip",
+        "type": "file",
+        "size": 91599371,
+        "mtime": "2026-06-24T16:46:52.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "TextBox 2 v1.2 WIN - satvrn.zip",
+        "rel": "plugin/TextBox 2 v1.2 WIN - satvrn.zip",
+        "type": "file",
+        "size": 550089,
+        "mtime": "2026-06-24T16:40:28.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "TextDelay v1.7.5 WIN - satvrn.zip",
+        "rel": "plugin/TextDelay v1.7.5 WIN - satvrn.zip",
+        "type": "file",
+        "size": 548396,
+        "mtime": "2026-06-24T16:40:52.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "TextSlice_1.2.zip",
+        "rel": "plugin/TextSlice_1.2.zip",
+        "type": "file",
+        "size": 17853,
+        "mtime": "2026-06-28T13:29:34.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "TheSauceCode 1.1.1 Win - satvrn.7z",
+        "rel": "plugin/TheSauceCode 1.1.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 3071723,
+        "mtime": "2026-06-24T16:46:23.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Tracery v1.1 Win Mac - satvrn.zip",
+        "rel": "plugin/Tracery v1.1 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 5665098,
+        "mtime": "2026-06-24T16:43:25.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Twitch Win - satvrn.zip",
+        "rel": "plugin/Twitch Win - satvrn.zip",
+        "type": "file",
+        "size": 348100,
+        "mtime": "2026-06-24T16:38:44.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Twixtor v8.1.0 Win - satvrn.7z",
+        "rel": "plugin/Twixtor v8.1.0 Win - satvrn.7z",
+        "type": "file",
+        "size": 32975441,
+        "mtime": "2026-06-24T16:37:43.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "VC Optical Flares 1.3.8 Win Mac - satvrn.zip",
+        "rel": "plugin/VC Optical Flares 1.3.8 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 87686755,
+        "mtime": "2026-06-24T16:38:40.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "vccolorsmt",
+        "rel": "plugin/vccolorsmt",
+        "type": "folder",
+        "children": [
+          {
+            "name": "vccolor.txt",
+            "rel": "plugin/vccolorsmt/vccolor.txt",
+            "type": "file",
+            "size": 69,
+            "mtime": "2026-06-24T16:39:03.000Z",
+            "links": [],
+            "status": "pending",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "Vimager Bundle 1.6.60209 Win - satvrn.7z",
+        "rel": "plugin/Vimager Bundle 1.6.60209 Win - satvrn.7z",
+        "type": "file",
+        "size": 257393209,
+        "mtime": "2026-06-24T16:45:38.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "xCloner.1.2.1 Win - satvrn.7z",
+        "rel": "plugin/xCloner.1.2.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 149977,
+        "mtime": "2026-06-24T16:46:31.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "premiere pro scripts",
+    "rel": "premiere pro scripts",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Captioneer 1.7.0 - satvrn.7z",
+        "rel": "premiere pro scripts/Captioneer 1.7.0 - satvrn.7z",
+        "type": "file",
+        "size": 329110152,
+        "mtime": "2026-06-24T17:06:24.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Easify 2 Pro 2.5.0 - satvrn.zip",
+        "rel": "premiere pro scripts/Easify 2 Pro 2.5.0 - satvrn.zip",
+        "type": "file",
+        "size": 4361539,
+        "mtime": "2026-06-24T17:03:34.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Excalibur 1.1.5 - satvrn.zip",
+        "rel": "premiere pro scripts/Excalibur 1.1.5 - satvrn.zip",
+        "type": "file",
+        "size": 1627609,
+        "mtime": "2026-06-24T17:03:39.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FastFX v1.0.0 Win Mac PR - satvrn.zip",
+        "rel": "premiere pro scripts/FastFX v1.0.0 Win Mac PR - satvrn.zip",
+        "type": "file",
+        "size": 198734378,
+        "mtime": "2026-06-24T17:05:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "scripts",
+    "rel": "scripts",
+    "type": "folder",
+    "children": [
+      {
+        "name": "3DfyPro Win Mac - satvrn.zip",
+        "rel": "scripts/3DfyPro Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 5214,
+        "mtime": "2026-06-24T16:59:10.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/eitfshfc2fljmf5/3DfyPro_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Add Time 1.1.1 - satvrn.7z",
+        "rel": "scripts/Add Time 1.1.1 - satvrn.7z",
+        "type": "file",
+        "size": 1373162,
+        "mtime": "2026-06-24T16:59:15.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jtlesbcn1hicb9e/Add_Time_1.1.1_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "AE Global Renamer 2.6.2 - satvrn.7z",
+        "rel": "scripts/AE Global Renamer 2.6.2 - satvrn.7z",
+        "type": "file",
+        "size": 590480,
+        "mtime": "2026-06-24T16:59:19.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/4uli6hy8rkil3hn/AE_Global_Renamer_2.6.2_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Aescripts Keystone 2.0.2 - satvrn.zip",
+        "rel": "scripts/Aescripts Keystone 2.0.2 - satvrn.zip",
+        "type": "file",
+        "size": 4947903,
+        "mtime": "2026-06-24T17:00:26.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/qwex942lafjc8hp/Aescripts_Keystone_2.0.2_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Aescripts Moire v1.6 - satvrn.zip",
+        "rel": "scripts/Aescripts Moire v1.6 - satvrn.zip",
+        "type": "file",
+        "size": 24400750,
+        "mtime": "2026-06-24T17:00:50.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/7oqzsoa6cwxzy9e/Aescripts_Moire_v1.6_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Align Pro Win Mac - satvrn.zip",
+        "rel": "scripts/Align Pro Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 963469,
+        "mtime": "2026-06-24T16:59:23.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/qfdmxizxirtqwvc/Align_Pro_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "AutoSway v1.90 - satvrn.zip",
+        "rel": "scripts/AutoSway v1.90 - satvrn.zip",
+        "type": "file",
+        "size": 1138129,
+        "mtime": "2026-06-24T16:59:27.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/27xm9ugcpkcz743/AutoSway_v1.90_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "ChronoKeys 1.0 - satvrn.7z",
+        "rel": "scripts/ChronoKeys 1.0 - satvrn.7z",
+        "type": "file",
+        "size": 1641232,
+        "mtime": "2026-06-24T16:59:32.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/fi4tkcu853gyhpe/ChronoKeys_1.0_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Cuttananir 2 - satvrn.zip",
+        "rel": "scripts/Cuttananir 2 - satvrn.zip",
+        "type": "file",
+        "size": 3006287,
+        "mtime": "2026-06-24T16:59:39.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/36orliigjp54a9y/Cuttananir_2_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Dojo Glitch v3.0 - satvrn.zip",
+        "rel": "scripts/Dojo Glitch v3.0 - satvrn.zip",
+        "type": "file",
+        "size": 280224,
+        "mtime": "2026-06-24T16:59:43.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/x29piec2009hmqw/Dojo_Glitch_v3.0_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "EZ Tools - satvrn.zip",
+        "rel": "scripts/EZ Tools - satvrn.zip",
+        "type": "file",
+        "size": 20016,
+        "mtime": "2026-06-24T16:59:46.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/8tb73l31n5d2805/EZ_Tools_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "flex-v1.1.3 - satvrn.7z",
+        "rel": "scripts/flex-v1.1.3 - satvrn.7z",
+        "type": "file",
+        "size": 770270,
+        "mtime": "2026-06-24T16:59:52.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/tnemb1z20lpf1wn/flex-v1.1.3_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "GifGun Win Mac - satvrn.zip",
+        "rel": "scripts/GifGun Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 72784967,
+        "mtime": "2026-06-24T17:00:35.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/os05vmgwfmppqvp/GifGun_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "GridTrend v1.0.0 - satvrn.7z",
+        "rel": "scripts/GridTrend v1.0.0 - satvrn.7z",
+        "type": "file",
+        "size": 1481978,
+        "mtime": "2026-06-24T17:00:07.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/83jxc8aayvu5ij3/GridTrend_v1.0.0_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Joysticks n Sliders v1.7.11 - satvrn.zip",
+        "rel": "scripts/Joysticks n Sliders v1.7.11 - satvrn.zip",
+        "type": "file",
+        "size": 939236,
+        "mtime": "2026-06-24T17:00:10.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jw3ndoealnqr3dl/Joysticks_n_Sliders_v1.7.11_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "keyboardfx v1 - satvrn.zip",
+        "rel": "scripts/keyboardfx v1 - satvrn.zip",
+        "type": "file",
+        "size": 1017342,
+        "mtime": "2026-06-24T17:00:14.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/j4lpc06xhfitif1/keyboardfx_v1_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Keyfast 1.2.7 Win Mac - satvrn.zip",
+        "rel": "scripts/Keyfast 1.2.7 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 244831,
+        "mtime": "2026-06-24T17:00:18.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/fsqibg4p6or28ty/Keyfast_1.2.7_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Limber 2.0.6 Win Mac - satvrn.zip",
+        "rel": "scripts/Limber 2.0.6 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 1773391,
+        "mtime": "2026-06-24T17:00:34.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/6sz6j0843hv5iel/Limber_2.0.6_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "loopy 1.1 - satvrn.zip",
+        "rel": "scripts/loopy 1.1 - satvrn.zip",
+        "type": "file",
+        "size": 931011,
+        "mtime": "2026-06-24T17:00:29.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/xt7oxlem5btud80/loopy_1.1_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "MazeFX v1.32 - satvrn.zip",
+        "rel": "scripts/MazeFX v1.32 - satvrn.zip",
+        "type": "file",
+        "size": 829798,
+        "mtime": "2026-06-24T17:00:52.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/cnoafr8g13uaalv/MazeFX_v1.32_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Motion Path Pro v1.0 - satvrn.zip",
+        "rel": "scripts/Motion Path Pro v1.0 - satvrn.zip",
+        "type": "file",
+        "size": 909829,
+        "mtime": "2026-06-24T17:00:46.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/3kuzs7n6y836ue1/Motion_Path_Pro_v1.0_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "neslayer",
+        "rel": "scripts/neslayer",
+        "type": "folder",
+        "children": [
+          {
+            "name": "neslayer.txt",
+            "rel": "scripts/neslayer/neslayer.txt",
+            "type": "file",
+            "size": 36,
+            "mtime": "2026-06-24T17:01:08.000Z",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/bpmw1uzfgyl7odw/neslayer.txt/file"
+              }
+            ],
+            "status": "ready",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "Origami v1.4.0 - satvrn.zip",
+        "rel": "scripts/Origami v1.4.0 - satvrn.zip",
+        "type": "file",
+        "size": 5605399,
+        "mtime": "2026-06-24T17:01:23.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/kqs3aqj08cyaq3f/Origami_v1.4.0_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Polka Dots Maker v1.2 - satvrn.zip",
+        "rel": "scripts/Polka Dots Maker v1.2 - satvrn.zip",
+        "type": "file",
+        "size": 935949,
+        "mtime": "2026-06-24T17:01:27.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/lrftgpwl0e20f3n/Polka_Dots_Maker_v1.2_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Quick Delete & Reset  2.1  - satvrn.7z",
+        "rel": "scripts/Quick Delete & Reset  2.1  - satvrn.7z",
+        "type": "file",
+        "size": 1401524,
+        "mtime": "2026-06-24T17:01:32.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/l2nq2zx2ufv9ebm/Quick_Delete_%2526_Reset__2.1__-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Rapid Reel Composer - satvrn.zip",
+        "rel": "scripts/Rapid Reel Composer - satvrn.zip",
+        "type": "file",
+        "size": 2378239,
+        "mtime": "2026-06-24T17:01:37.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/mkom12hg2rmv78y/Rapid_Reel_Composer_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Ray Dynamic Color 2 v2.5.10 - satvrn.zip",
+        "rel": "scripts/Ray Dynamic Color 2 v2.5.10 - satvrn.zip",
+        "type": "file",
+        "size": 606541,
+        "mtime": "2026-06-24T17:01:41.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/r4lde0rnbhv8d1e/Ray_Dynamic_Color_2_v2.5.10_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Reach AEssential Kit v1.9.5 - satvrn.zip",
+        "rel": "scripts/Reach AEssential Kit v1.9.5 - satvrn.zip",
+        "type": "file",
+        "size": 45357643,
+        "mtime": "2026-06-24T17:02:04.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ansio8784zvwjlx/Reach_AEssential_Kit_v1.9.5_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "React v1.0.1 - satvrn.zip",
+        "rel": "scripts/React v1.0.1 - satvrn.zip",
+        "type": "file",
+        "size": 461315,
+        "mtime": "2026-06-24T17:01:51.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ezp5c7gpihzrfz1/React_v1.0.1_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Splash v1.03 - satvrn.zip",
+        "rel": "scripts/Splash v1.03 - satvrn.zip",
+        "type": "file",
+        "size": 4094420,
+        "mtime": "2026-06-24T17:01:59.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jt1aaqgax3y8set/Splash_v1.03_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Super Lines 1.4.7 Win Mac - satvrn.zip",
+        "rel": "scripts/Super Lines 1.4.7 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 748142,
+        "mtime": "2026-06-24T17:02:03.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/tcxf7luy9e71r5w/Super_Lines_1.4.7_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "SwissKnife1.1.7 - satvrn.zip",
+        "rel": "scripts/SwissKnife1.1.7 - satvrn.zip",
+        "type": "file",
+        "size": 662450,
+        "mtime": "2026-06-24T17:02:07.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/em89gzlzhf2yoee/SwissKnife1.1.7_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Text Animator Suite - satvrn.zip",
+        "rel": "scripts/Text Animator Suite - satvrn.zip",
+        "type": "file",
+        "size": 12809,
+        "mtime": "2026-06-24T17:02:12.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/sw20129kvbaa10q/Text_Animator_Suite_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "textanimescripeter",
+        "rel": "scripts/textanimescripeter",
+        "type": "folder",
+        "children": [
+          {
+            "name": "textanimescripter.txt",
+            "rel": "scripts/textanimescripeter/textanimescripter.txt",
+            "type": "file",
+            "size": 50,
+            "mtime": "2026-06-24T17:02:46.000Z",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/xxd1xzxgzobglxb/textanimescripter.txt/file"
+              }
+            ],
+            "status": "ready",
+            "downloadType": "external"
+          }
+        ]
+      },
+      {
+        "name": "TextExploder v3.0.002 - satvrn.7z",
+        "rel": "scripts/TextExploder v3.0.002 - satvrn.7z",
+        "type": "file",
+        "size": 1416209,
+        "mtime": "2026-06-24T17:02:17.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/wj1m2aunrnpmte0/TextExploder_v3.0.002_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "TextFlex 1.0 Win Mac - satvrn.zip",
+        "rel": "scripts/TextFlex 1.0 Win Mac - satvrn.zip",
+        "type": "file",
+        "size": 5712373,
+        "mtime": "2026-06-24T17:02:24.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ea3vk77h4nce9r7/TextFlex_1.0_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "textoevo2 - satvrn.zip",
+        "rel": "scripts/textoevo2 - satvrn.zip",
+        "type": "file",
+        "size": 605910,
+        "mtime": "2026-06-24T17:02:27.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/8rt0hwg6qj731ok/textoevo2_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Type1.5.2 - satvrn.zip",
+        "rel": "scripts/Type1.5.2 - satvrn.zip",
+        "type": "file",
+        "size": 995301,
+        "mtime": "2026-06-24T17:02:55.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/j14fp2ryytja0x1/Type1.5.2_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Ukramedia Smart Bundle - satvrn.zip",
+        "rel": "scripts/Ukramedia Smart Bundle - satvrn.zip",
+        "type": "file",
+        "size": 3800692,
+        "mtime": "2026-06-24T17:01:55.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/p77tmqy458e0xkz/Ukramedia_Smart_Bundle_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Universal Audio v1.6.95 - satvrn.zip",
+        "rel": "scripts/Universal Audio v1.6.95 - satvrn.zip",
+        "type": "file",
+        "size": 573796,
+        "mtime": "2026-06-24T17:03:00.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/1pgz31x594vysud/Universal_Audio_v1.6.95_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      },
+      {
+        "name": "Vybe 1.01 - satvrn.7z",
+        "rel": "scripts/Vybe 1.01 - satvrn.7z",
+        "type": "file",
+        "size": 553215,
+        "mtime": "2026-06-24T17:03:06.000Z",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ansontvlf7wryeo/Vybe_1.01_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
+        "downloadType": "external"
+      }
+    ]
+  },
+  {
+    "name": "software",
+    "rel": "software",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Adobe Animate 2024.0.12 - satvrn.7z",
+        "rel": "software/Adobe Animate 2024.0.12 - satvrn.7z",
+        "type": "file",
+        "size": 3623833531,
+        "mtime": "2026-06-24T17:25:02.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Adobe Audition 2025.3 WIN - satvrn.7z",
+        "rel": "software/Adobe Audition 2025.3 WIN - satvrn.7z",
+        "type": "file",
+        "size": 924835701,
+        "mtime": "2026-06-24T17:04:40.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "After Effects 2024.4 (WIN) - satvrn.zip",
+        "rel": "software/After Effects 2024.4 (WIN) - satvrn.zip",
+        "type": "file",
+        "size": 3745821987,
+        "mtime": "2026-06-24T17:30:50.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "After Effects 2026 - satvrn.zip",
+        "rel": "software/After Effects 2026 - satvrn.zip",
+        "type": "file",
+        "size": 4886171845,
+        "mtime": "2026-06-24T17:32:35.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Cinema 4D 2026.0 win - satvrn.7z",
+        "rel": "software/Cinema 4D 2026.0 win - satvrn.7z",
+        "type": "file",
+        "size": 24787219,
+        "mtime": "2026-06-24T16:53:11.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Davinci Resolve Patcher WIN - satvrn.7z",
+        "rel": "software/Davinci Resolve Patcher WIN - satvrn.7z",
+        "type": "file",
+        "size": 158010,
+        "mtime": "2026-06-24T16:51:44.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "FL Studio v25.1.6 Build 4997 Rev1 - satvrn.7z",
+        "rel": "software/FL Studio v25.1.6 Build 4997 Rev1 - satvrn.7z",
+        "type": "file",
+        "size": 296759907,
+        "mtime": "2026-06-24T16:56:29.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Illustrator 2026 Win - satvrn.7z",
+        "rel": "software/Illustrator 2026 Win - satvrn.7z",
+        "type": "file",
+        "size": 3522278430,
+        "mtime": "2026-06-24T17:15:07.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "InDesign  2026 Win - satvrn.7z",
+        "rel": "software/InDesign  2026 Win - satvrn.7z",
+        "type": "file",
+        "size": 1480094400,
+        "mtime": "2026-06-24T17:19:19.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Lightroom Classic 2026 v15.1.1 Win - satvrn.7z",
+        "rel": "software/Lightroom Classic 2026 v15.1.1 Win - satvrn.7z",
+        "type": "file",
+        "size": 3174686997,
+        "mtime": "2026-06-24T17:08:33.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "MAGIX.VEGAS.Pro.v23.0.0.278.Incl.Emulator-R2R WIN - satvrn.7z",
+        "rel": "software/MAGIX.VEGAS.Pro.v23.0.0.278.Incl.Emulator-R2R WIN - satvrn.7z",
+        "type": "file",
+        "size": 691602940,
+        "mtime": "2026-06-24T16:55:50.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Media Encoder 2024 WIN - satvrn.zip",
+        "rel": "software/Media Encoder 2024 WIN - satvrn.zip",
+        "type": "file",
+        "size": 1209778488,
+        "mtime": "2026-06-24T17:02:13.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Media Encoder 2026 Win - satvrn.zip",
+        "rel": "software/Media Encoder 2026 Win - satvrn.zip",
+        "type": "file",
+        "size": 2690204636,
+        "mtime": "2026-06-24T17:07:58.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Photoshop.2026 (v27.0) WIN - satvrn.7z",
+        "rel": "software/Photoshop.2026 (v27.0) WIN - satvrn.7z",
+        "type": "file",
+        "size": 5859846327,
+        "mtime": "2026-06-24T17:40:33.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Premiere.Pro.2025.5 Win - satvrn.7z",
+        "rel": "software/Premiere.Pro.2025.5 Win - satvrn.7z",
+        "type": "file",
+        "size": 3360682153,
+        "mtime": "2026-06-24T17:15:06.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Speech to Text for Premiere Pro 2025 win.zip",
+        "rel": "software/Speech to Text for Premiere Pro 2025 win.zip",
+        "type": "file",
+        "size": 13706476517,
+        "mtime": "2026-06-24T18:07:36.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Substance 3D Designer 15.1.2 Win - satvrn.7z",
+        "rel": "software/Substance 3D Designer 15.1.2 Win - satvrn.7z",
+        "type": "file",
+        "size": 1075408564,
+        "mtime": "2026-06-24T17:05:17.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Substance 3D Modeler 1.22.6 Win - satvrn.7z",
+        "rel": "software/Substance 3D Modeler 1.22.6 Win - satvrn.7z",
+        "type": "file",
+        "size": 1199541400,
+        "mtime": "2026-06-24T17:01:50.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Substance 3D Painter 11.1.2 Win - satvrn.7z",
+        "rel": "software/Substance 3D Painter 11.1.2 Win - satvrn.7z",
+        "type": "file",
+        "size": 3296133486,
+        "mtime": "2026-06-24T17:30:40.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Topaz Gigapixel Activator v2 (win) - satvrn.7z",
+        "rel": "software/Topaz Gigapixel Activator v2 (win) - satvrn.7z",
+        "type": "file",
+        "size": 1391,
+        "mtime": "2026-06-24T16:52:16.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "Topaz Photo Activator v2 (win) - satvrn.7z",
+        "rel": "software/Topaz Photo Activator v2 (win) - satvrn.7z",
+        "type": "file",
+        "size": 1391,
+        "mtime": "2026-06-24T16:52:11.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      },
+      {
+        "name": "TouchDesigner Pro 2023.12230 Win - satvrn.7z",
+        "rel": "software/TouchDesigner Pro 2023.12230 Win - satvrn.7z",
+        "type": "file",
+        "size": 2639707234,
+        "mtime": "2026-06-24T17:34:03.000Z",
+        "links": [],
+        "status": "pending",
+        "downloadType": "external"
+      }
+    ]
+  }
+]
