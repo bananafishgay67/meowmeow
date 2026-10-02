@@ -1088,8 +1088,13 @@
         "type": "file",
         "size": 1235254506,
         "mtime": "2026-06-24T16:58:15.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/99f0d01559ed--Mocha_Pro_2026.0_OFX_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1108,8 +1113,13 @@
         "type": "file",
         "size": 1485340025,
         "mtime": "2026-06-24T16:59:04.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/af3d4397c989--Sapphire_OFX_2026_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1367,8 +1377,13 @@
         "type": "file",
         "size": 1465462492,
         "mtime": "2026-06-24T16:45:10.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/4e70da1fa750--BorisFX_Sapphire_AE_WIN_2026.0_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2145,8 +2160,13 @@
         "type": "file",
         "size": 1238643639,
         "mtime": "2026-06-24T16:43:39.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/70b05fb2bec8--Mocha_Pro_Adobe_.2026.0.1_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3730,8 +3750,13 @@
         "type": "file",
         "size": 924835701,
         "mtime": "2026-06-24T17:04:40.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/ff185ffd7a68--Adobe_Audition_2025.3_WIN_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3827,8 +3852,13 @@
         "type": "file",
         "size": 1480094400,
         "mtime": "2026-06-24T17:19:19.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/a5e67c72cd16--InDesign_2026_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3866,8 +3896,13 @@
         "type": "file",
         "size": 1209778488,
         "mtime": "2026-06-24T17:02:13.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/cf0550e08f91--Media_Encoder_2024_WIN_-_satvrn.zip"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3916,8 +3951,13 @@
         "type": "file",
         "size": 1075408564,
         "mtime": "2026-06-24T17:05:17.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/fd56f7929b15--Substance_3D_Designer_15.1.2_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3926,8 +3966,13 @@
         "type": "file",
         "size": 1199541400,
         "mtime": "2026-06-24T17:01:50.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "GitHub",
+            "url": "https://github.com/bananafishgay67/meowmeow/releases/download/satvrn-downloads/be570d886386--Substance_3D_Modeler_1.22.6_Win_-_satvrn.7z"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
