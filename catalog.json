@@ -1324,8 +1324,13 @@
         "type": "file",
         "size": 3987820771,
         "mtime": "2026-06-24T17:31:32.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jyng73itqjsb043/BorisFX_Silhouette_2025.5.1_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
