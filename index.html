@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-oi8tRppl5IFG5tt6Lay81q4OJAJELqP3xW8BIflEi/Q='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YXgnR5Wm/6oz6YIQHMppRVqFdw/h6c3JdGbZmm/fc9o='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="no-referrer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -1747,7 +1747,7 @@ kbd{
       <div class="hero-stats">
         <div class="hstat"><span class="hstat-val" id="stat-files">—</span><span class="hstat-label">Files</span></div>
         <div class="hstat"><span class="hstat-val" id="stat-size">—</span><span class="hstat-label">Total size</span></div>
-        <div class="hstat"><span class="hstat-val">10</span><span class="hstat-label">Categories</span></div>
+        <div class="hstat"><span class="hstat-val" id="stat-online">—</span><span class="hstat-label">Downloads available</span></div>
       </div>
     </div>
     <div class="hero-visual">
@@ -2185,7 +2185,7 @@ function loadTree(cb){
   fetch('./catalog.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(d){fileTree=d;searchIndex=[];buildSearchIndex(d,'');treeLoading=false;updateHeroStats(d);var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(null,d)})}).catch(function(e){treeLoading=false;var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(e,null)})})
 }
 function countNodes(nodes){var files=0,size=0;nodes.forEach(function(n){if(n.type==='folder'&&n.children){var c=countNodes(n.children);files+=c.files;size+=c.size}else{files++;size+=n.size||0}});return{files:files,size:size}}
-function updateHeroStats(tree){var c=countNodes(tree);document.getElementById('stat-files').textContent=c.files.toLocaleString();document.getElementById('stat-size').textContent=formatSize(c.size)}
+function updateHeroStats(tree){var c=countNodes(tree);document.getElementById('stat-files').textContent=c.files.toLocaleString();document.getElementById('stat-size').textContent=formatSize(c.size);var available=0;function walk(nodes){nodes.forEach(function(n){if(n.children)walk(n.children);else if(n.status==='ready')available++})}walk(tree);document.getElementById('stat-online').textContent=available.toLocaleString()}
 function renderSearchDropdown(results,container,onSelect){
   container.innerHTML='';
   if(!results.length){var empty=document.createElement('div');empty.className='search-result-empty';empty.innerHTML='<i class="ti ti-search-off"></i>No results found';container.appendChild(empty);return}
@@ -2245,13 +2245,13 @@ function renderFiles(){
     sorted.forEach(function(item,idx){
       var card=document.createElement('button');card.className='file-card ripple-host';
       card.style.animationDelay=(idx*.022)+'s';card.style.animation='card-rise .38s cubic-bezier(.22,1,.36,1) both';
-      var ico=getIcon(item);var meta=item.type==='folder'?(item.children?item.children.length:0)+' items':formatSize(item.size)+' · '+(item.status==='ready'?'Download':'Not transferred yet');
+      var ico=getIcon(item);var meta=item.type==='folder'?(item.children?item.children.length:0)+' items':formatSize(item.size)+' · '+(item.status==='ready'?'Download':item.status==='unavailable'?'Temporarily unavailable':'Not transferred yet');
       card.innerHTML='<div class="dl-progress"><div class="dl-progress-bar" id="dlbar-'+idx+'"></div></div><div class="fc-icon"><i class="ti '+ico.cls+'" style="color:'+ico.color+'"></i></div><div class="fc-name" title="'+escapeHTML(item.name)+'">'+escapeHTML(item.name)+'</div><div class="fc-meta">'+meta+'</div>';
       addRipple(card);
       if(item.type==='folder'){
         card.addEventListener('click',function(){currentPath.push({name:item.name,rel:item.rel});renderBreadcrumb();renderFiles()})
       } else {
-        if(item.status!=='ready'){card.style.opacity='.55';card.title='This archive has not been uploaded yet';card.setAttribute('aria-disabled','true');}
+        if(item.status!=='ready'){card.style.opacity='.55';card.title=(item.status==='unavailable'?'Download temporarily unavailable':'This archive has not been uploaded yet');card.setAttribute('aria-disabled','true');}
         card.addEventListener('click',function(){
           var bar=card.querySelector('.dl-progress-bar');
           var dlUrl=fileDownloadUrl(item.rel);
