@@ -964,8 +964,13 @@
         "type": "file",
         "size": 3062072995,
         "mtime": "2026-06-24T17:05:52.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/QyZgGQ4Q#VhgAfcydUtm2f7t8na36Ynxbabs01GzWlNQVB6Zo29I"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1523,8 +1528,13 @@
         "type": "file",
         "size": 3051516932,
         "mtime": "2026-06-24T17:00:52.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/YqoHXbjL#CxB5yQRZdWgPoaEOLIUG3tgXdHMRXqPyEg548zYUqtk"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2417,8 +2427,13 @@
         "type": "file",
         "size": 2192867305,
         "mtime": "2026-06-24T16:50:13.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/wvZATDZS#1Xe3Do3oHxfyjMfUTvVG9sW56soSB3wvY3cVO6pXPUU"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3867,8 +3882,13 @@
         "type": "file",
         "size": 3174686997,
         "mtime": "2026-06-24T17:08:33.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/g2oiFarI#c6QA-nreJBSr4Aa62hSUanhNJaqBQ6J5Hk4_CaiUCEM"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -3911,8 +3931,13 @@
         "type": "file",
         "size": 2690204636,
         "mtime": "2026-06-24T17:07:58.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/oz4lDYKZ#8orIEwDcG9OBFJPXTIUiJz9eeTI6n9oRfapxixvKr2M"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -4034,8 +4059,13 @@
         "type": "file",
         "size": 2639707234,
         "mtime": "2026-06-24T17:34:03.000Z",
-        "links": [],
-        "status": "awaiting-link",
+        "links": [
+          {
+            "provider": "MEGA",
+            "url": "https://mega.nz/file/I2wS2RCb#6WKvTuzvkwH23rNZadxMUgDcz0gWDgM1sr0Fr08WbeM"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       }
     ]
