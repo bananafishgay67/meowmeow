@@ -3941,8 +3941,13 @@
         "type": "file",
         "size": 13706476517,
         "mtime": "2026-06-24T18:07:36.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "Google Drive",
+            "url": "https://drive.google.com/file/d/1rWiNMSfzyIozdLnN2RMR9u8fMURhSwtt/view?usp=drivesdk"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
