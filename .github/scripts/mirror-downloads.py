@@ -1,9 +1,10 @@
 """Copy verified public archives into GitHub Releases; never execute them."""
 import hashlib, http.client, json, os, pathlib, re, tempfile, time
+from http.cookiejar import CookieJar
 from html.parser import HTMLParser
 from urllib.error import HTTPError
-from urllib.parse import quote, urlencode, urlparse
-from urllib.request import Request, urlopen
+from urllib.parse import quote, urlencode, urlparse, urljoin
+from urllib.request import Request, urlopen, build_opener, HTTPCookieProcessor
 
 REPO = os.environ['GITHUB_REPOSITORY']
 TOKEN = os.environ['GH_TOKEN']
@@ -36,25 +37,39 @@ for page in range(1, 20):
 
 class DownloadLink(HTMLParser):
     url = None
+    continue_url = None
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == 'a' and attrs.get('id') == 'downloadButton':
             self.url = attrs.get('href')
+        if tag == 'a' and attrs.get('id') == 'continue-btn':
+            self.continue_url = attrs.get('href')
+
+public_download = build_opener(HTTPCookieProcessor(CookieJar()))
 
 def download(item, target):
     source = urlparse(item['url'])
     if source.scheme != 'https' or source.hostname != 'www.mediafire.com':
         raise ValueError('Unapproved archive source')
-    with urlopen(Request(item['url'], headers={'User-Agent': 'Mozilla/5.0'}), timeout=120) as page:
-        parser = DownloadLink()
-        parser.feed(page.read().decode('utf-8', errors='replace'))
+    page_url = item['url']
+    for repair_attempt in range(3):
+        with public_download.open(Request(page_url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120) as page:
+            parser = DownloadLink()
+            parser.feed(page.read().decode('utf-8', errors='replace'))
+        if parser.url or not parser.continue_url:
+            break
+        page_url = urljoin(item['url'], parser.continue_url)
+        next_url = urlparse(page_url)
+        if next_url.scheme != 'https' or next_url.hostname != 'www.mediafire.com':
+            raise ValueError('Unexpected download refresh destination')
+        time.sleep(5)
     host = urlparse(parser.url or '')
     if host.scheme != 'https' or not (host.hostname or '').endswith('.mediafire.com'):
-        raise ValueError('Missing approved public download link')
+        raise HTTPError(item['url'], 503, 'Missing public download link', None, None)
     checksum = hashlib.sha256() if len(item['sha256']) == 64 else hashlib.md5()
     sha256 = hashlib.sha256()
     count = 0
-    with urlopen(parser.url, timeout=120) as response, target.open('wb') as output:
+    with public_download.open(parser.url, timeout=120) as response, target.open('wb') as output:
         while chunk := response.read(1024 * 1024):
             count += len(chunk)
             if count > item['size']:
