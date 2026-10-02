@@ -49,10 +49,12 @@ public_download = build_opener(HTTPCookieProcessor(CookieJar()))
 
 def download(item, target):
     source = urlparse(item['url'])
-    if source.scheme != 'https' or source.hostname != 'www.mediafire.com':
+    is_direct = (source.hostname or '').endswith('.trycloudflare.com')
+    if source.scheme != 'https' or (source.hostname != 'www.mediafire.com' and not is_direct):
         raise ValueError('Unapproved archive source')
+    direct_url = item['url'] if is_direct else None
     page_url = item['url']
-    for repair_attempt in range(3):
+    for repair_attempt in range(0 if is_direct else 3):
         with public_download.open(Request(page_url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=120) as page:
             parser = DownloadLink()
             parser.feed(page.read().decode('utf-8', errors='replace'))
@@ -63,13 +65,14 @@ def download(item, target):
         if next_url.scheme != 'https' or next_url.hostname != 'www.mediafire.com':
             raise ValueError('Unexpected download refresh destination')
         time.sleep(5)
-    host = urlparse(parser.url or '')
-    if host.scheme != 'https' or not (host.hostname or '').endswith('.mediafire.com'):
+    download_url = direct_url or parser.url
+    host = urlparse(download_url or '')
+    if host.scheme != 'https' or not ((host.hostname or '').endswith('.mediafire.com') or is_direct and host.hostname == source.hostname):
         raise HTTPError(item['url'], 503, 'Missing public download link', None, None)
     checksum = hashlib.sha256() if len(item['sha256']) == 64 else hashlib.md5()
     sha256 = hashlib.sha256()
     count = 0
-    with public_download.open(parser.url, timeout=120) as response, target.open('wb') as output:
+    with public_download.open(download_url, timeout=120) as response, target.open('wb') as output:
         while chunk := response.read(1024 * 1024):
             count += len(chunk)
             if count > item['size']:
@@ -102,7 +105,7 @@ def upload(item, name, target, digest):
         raise ValueError('GitHub upload verification failed, status ' + str(response.status))
     return result
 
-items = json.loads(pathlib.Path('.github/mirror-input.json').read_text())
+items = json.loads(pathlib.Path(os.environ.get('MIRROR_INPUT_PATH', '.github/mirror-input.json')).read_text())
 results = []
 failures = []
 with tempfile.TemporaryDirectory() as temporary:
@@ -138,6 +141,6 @@ with tempfile.TemporaryDirectory() as temporary:
                         'url': result['browser_download_url']})
         print(f"Verified {index}/{len(items)}: {item['rel']}", flush=True)
 pathlib.Path('mirror-verification.json').write_text(json.dumps(results, indent=2))
-print('All requested GitHub Release copies verified.', flush=True)
 if failures:
     raise RuntimeError('Public downloads unavailable: ' + ', '.join(failures))
+print('All requested GitHub Release copies verified.', flush=True)
