@@ -948,12 +948,6 @@
     ]
   },
   {
-    "name": "Mac",
-    "rel": "Mac",
-    "type": "folder",
-    "children": []
-  },
-  {
     "name": "ofx plugin",
     "rel": "ofx plugin",
     "type": "folder",
@@ -1031,25 +1025,6 @@
         "downloadType": "external"
       },
       {
-        "name": "FilmConvert Bundle Win - satvrn.7z",
-        "rel": "ofx plugin/FilmConvert Bundle Win - satvrn.7z",
-        "type": "file",
-        "size": 2022,
-        "mtime": "2026-06-24T16:47:58.000Z",
-        "links": [
-          {
-            "provider": "GitHub",
-            "url": "https://github.com/emwmew/meowmeow/releases/download/satvrn-downloads/951649f36f13--FilmConvert_Bundle_Win_-_satvrn.7z"
-          },
-          {
-            "provider": "MediaFire",
-            "url": "https://www.mediafire.com/file/zjv3qdsnl5amo4x/FilmConvert_Bundle_Win_-_satvrn.7z/file"
-          }
-        ],
-        "status": "ready",
-        "downloadType": "external"
-      },
-      {
         "name": "FilmConvert.OFX.v2.20.CE Win VEGAS - satvrn.zip",
         "rel": "ofx plugin/FilmConvert.OFX.v2.20.CE Win VEGAS - satvrn.zip",
         "type": "file",
@@ -1069,25 +1044,6 @@
         "downloadType": "external"
       },
       {
-        "name": "IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
-        "rel": "ofx plugin/IgnitePro 2021.1 Adobe & OFX WIN - satvrn.7z",
-        "type": "file",
-        "size": 403007491,
-        "mtime": "2026-06-24T16:51:49.000Z",
-        "links": [
-          {
-            "provider": "GitHub",
-            "url": "https://github.com/emwmew/meowmeow/releases/download/satvrn-downloads/ae41235776de--IgnitePro_2021.1_Adobe_OFX_WIN_-_satvrn.7z"
-          },
-          {
-            "provider": "MediaFire",
-            "url": "https://www.mediafire.com/file/z9qauprqnnhi3w0/IgnitePro_2021.1_Adobe_%2526_OFX_WIN_-_satvrn.7z/file"
-          }
-        ],
-        "status": "ready",
-        "downloadType": "external"
-      },
-      {
         "name": "Mocha Pro 2026.0 OFX Win - satvrn.7z",
         "rel": "ofx plugin/Mocha Pro 2026.0 OFX Win - satvrn.7z",
         "type": "file",
@@ -1097,21 +1053,6 @@
           {
             "provider": "GitHub",
             "url": "https://github.com/emwmew/meowmeow/releases/download/satvrn-downloads/99f0d01559ed--Mocha_Pro_2026.0_OFX_Win_-_satvrn.7z"
-          }
-        ],
-        "status": "ready",
-        "downloadType": "external"
-      },
-      {
-        "name": "RedGiant.v2026.3.0 Win - satvrn.7z",
-        "rel": "ofx plugin/RedGiant.v2026.3.0 Win - satvrn.7z",
-        "type": "file",
-        "size": 3451254595,
-        "mtime": "2026-06-24T17:20:42.000Z",
-        "links": [
-          {
-            "provider": "MEGA",
-            "url": "https://mega.nz/file/UB1gXLoK#lY09-hol9oJrS5acAYX8Ae1B-0DqyV9g7sr2mp3GvnA"
           }
         ],
         "status": "ready",
