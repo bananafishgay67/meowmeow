@@ -104,6 +104,7 @@ def upload(item, name, target, digest):
 
 items = json.loads(pathlib.Path('.github/mirror-input.json').read_text())
 results = []
+failures = []
 with tempfile.TemporaryDirectory() as temporary:
     for index, item in enumerate(items, 1):
         if item['size'] >= 2 * 1024 ** 3:
@@ -117,14 +118,19 @@ with tempfile.TemporaryDirectory() as temporary:
             if old:
                 raise ValueError('Existing asset differs; refusing overwrite')
             target = pathlib.Path(temporary) / 'archive.bin'
+            digest = None
             for attempt in range(3):
                 try:
                     digest = download(item, target)
                     break
                 except (HTTPError, TimeoutError) as error:
                     if attempt == 2:
-                        raise
+                        failures.append(item['rel'])
+                        print('Download temporarily unavailable: ' + item['rel'], flush=True)
+                        break
                     time.sleep(5)
+            if digest is None:
+                continue
             result = upload(item, name, target, digest)
             target.unlink()
             time.sleep(1)
@@ -133,3 +139,5 @@ with tempfile.TemporaryDirectory() as temporary:
         print(f"Verified {index}/{len(items)}: {item['rel']}", flush=True)
 pathlib.Path('mirror-verification.json').write_text(json.dumps(results, indent=2))
 print('All requested GitHub Release copies verified.', flush=True)
+if failures:
+    raise RuntimeError('Public downloads unavailable: ' + ', '.join(failures))
