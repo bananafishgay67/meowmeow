@@ -1,0 +1,26 @@
+name: Copy verified downloads to GitHub Releases
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/mirror-input.json
+      - .github/scripts/mirror-downloads.py
+      - .github/workflows/mirror-downloads.yml
+permissions:
+  contents: write
+concurrency:
+  group: archive-migration
+  cancel-in-progress: false
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Copy and verify archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/mirror-downloads.py
