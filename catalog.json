@@ -965,7 +965,7 @@
         "size": 3062072995,
         "mtime": "2026-06-24T17:05:52.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       },
       {
@@ -1524,7 +1524,7 @@
         "size": 3051516932,
         "mtime": "2026-06-24T17:00:52.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       },
       {
@@ -2418,7 +2418,7 @@
         "size": 2192867305,
         "mtime": "2026-06-24T16:50:13.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       },
       {
@@ -3868,7 +3868,7 @@
         "size": 3174686997,
         "mtime": "2026-06-24T17:08:33.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       },
       {
@@ -3912,7 +3912,7 @@
         "size": 2690204636,
         "mtime": "2026-06-24T17:07:58.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       },
       {
@@ -4035,7 +4035,7 @@
         "size": 2639707234,
         "mtime": "2026-06-24T17:34:03.000Z",
         "links": [],
-        "status": "pending",
+        "status": "awaiting-link",
         "downloadType": "external"
       }
     ]
