@@ -782,8 +782,13 @@
         "type": "file",
         "size": 7384419,
         "mtime": "2026-06-24T16:48:32.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/skqeq9q7ijq0oiv/BulletTime1.1.14_OFX_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -792,8 +797,13 @@
         "type": "file",
         "size": 92756386,
         "mtime": "2026-06-24T16:49:16.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/rb0kyakokvrbipd/Dehancer_Pro_OFX_7.3.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -802,8 +812,13 @@
         "type": "file",
         "size": 1188082,
         "mtime": "2026-06-24T16:48:34.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/m08hxzyjy2b6fv9/Dust_Transition_OFX_1.1.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -812,8 +827,13 @@
         "type": "file",
         "size": 2022,
         "mtime": "2026-06-24T16:47:58.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/zjv3qdsnl5amo4x/FilmConvert_Bundle_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -822,8 +842,13 @@
         "type": "file",
         "size": 121140975,
         "mtime": "2026-06-24T16:48:44.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/g9b4xs1qrmrzxtm/FilmConvert.OFX.v2.20.CE_Win_VEGAS_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -832,8 +857,13 @@
         "type": "file",
         "size": 403007491,
         "mtime": "2026-06-24T16:51:49.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/z9qauprqnnhi3w0/IgnitePro_2021.1_Adobe_%2526_OFX_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -872,8 +902,13 @@
         "type": "file",
         "size": 22620401,
         "mtime": "2026-06-24T16:47:34.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/r7wahlid2zqdk55/Twixtor_v8.1.0_OFX_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       }
     ]
@@ -937,8 +972,13 @@
         "type": "file",
         "size": 17070422,
         "mtime": "2026-06-24T16:46:35.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ycxvo2v2jkms7q7/Aescripts_VariFont_2_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -947,8 +987,13 @@
         "type": "file",
         "size": 10561617,
         "mtime": "2026-06-24T16:39:16.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/uzlrdy6pbxf6hg2/AfterCodecs_v1.12.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -957,8 +1002,13 @@
         "type": "file",
         "size": 374051,
         "mtime": "2026-06-24T16:43:28.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/tkkez9ulthqgbvn/AndrewYang_Bundle_260215_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -967,8 +1017,13 @@
         "type": "file",
         "size": 121609788,
         "mtime": "2026-06-24T16:40:36.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/e0acgfwnncl5o4d/AutoFill_v2.0.2_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -977,8 +1032,13 @@
         "type": "file",
         "size": 31024350,
         "mtime": "2026-06-24T16:39:32.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/rc4i40tuwfdzzj5/Autokroma.bundle.2025.7_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -987,8 +1047,13 @@
         "type": "file",
         "size": 3071330,
         "mtime": "2026-06-24T16:41:43.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/an1yj417yd6t821/BallPoint_1.2.1_Win.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -997,8 +1062,13 @@
         "type": "file",
         "size": 6925520,
         "mtime": "2026-06-24T16:43:00.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/3ytqj4ihlte9r37/BAO_plugins_bundle_2025.5_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1007,8 +1077,13 @@
         "type": "file",
         "size": 173633,
         "mtime": "2026-06-24T16:43:45.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/krn3zlseue5euek/Bendio_v1.0.1_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1017,8 +1092,13 @@
         "type": "file",
         "size": 27287116,
         "mtime": "2026-06-24T16:43:27.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/6y6cxsmiwhtx8rz/Bevelizer_1.0.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1057,8 +1137,13 @@
         "type": "file",
         "size": 2998994,
         "mtime": "2026-06-24T16:39:53.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/4hfzu5fosokqrzm/Cartoon_Moblur_v1.6.3_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1072,8 +1157,13 @@
             "type": "file",
             "size": 49,
             "mtime": "2026-06-24T16:41:13.000Z",
-            "links": [],
-            "status": "pending",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/hlh6hc8krhm7yql/color_abberation.txt/file"
+              }
+            ],
+            "status": "ready",
             "downloadType": "external"
           }
         ]
@@ -1084,8 +1174,13 @@
         "type": "file",
         "size": 864794,
         "mtime": "2026-06-24T16:43:49.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/x0v7w46ljqu2wxn/Color_Llama_1.1.0_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1094,8 +1189,13 @@
         "type": "file",
         "size": 70147,
         "mtime": "2026-06-24T16:43:54.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/k78wyopcto71zf5/Colour_Scheme_Generator_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1104,8 +1204,13 @@
         "type": "file",
         "size": 11835090,
         "mtime": "2026-06-24T16:44:02.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/u3m6h5bn8yu9xsj/Composite_Brush_1.6.7_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1124,8 +1229,13 @@
         "type": "file",
         "size": 398061,
         "mtime": "2026-06-24T16:43:34.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/a3pwexbcvuz6bye/Crates_Godrays_%2526_Light_Wrap_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1134,8 +1244,13 @@
         "type": "file",
         "size": 1490869,
         "mtime": "2026-06-24T16:41:51.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/w6hnecf00gp6ms9/CROSSPHERE_Bokeh_1.4.1_win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1144,8 +1259,13 @@
         "type": "file",
         "size": 12390214,
         "mtime": "2026-06-24T16:41:50.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/qj2csl4nhpr3mjc/Crossphere_Plugins_Bundle_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1154,8 +1274,13 @@
         "type": "file",
         "size": 9133376,
         "mtime": "2026-06-24T16:44:05.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/xxt6whxhx659s92/CycoreFX.bundle.v1.3.2_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1164,8 +1289,13 @@
         "type": "file",
         "size": 3533063,
         "mtime": "2026-06-24T16:39:58.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/xq7doqg2kfp3keg/Deep_Glow_2_v1.1.0_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1174,8 +1304,13 @@
         "type": "file",
         "size": 954316,
         "mtime": "2026-06-24T16:40:02.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/iiywei05ljmmchm/Deep_Glow_v1.6.6_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1184,8 +1319,13 @@
         "type": "file",
         "size": 309119698,
         "mtime": "2026-06-24T16:46:43.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/hglg18ryl617m49/Dehancer_Pro_7.3.4_Adobe_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1194,8 +1334,13 @@
         "type": "file",
         "size": 3416659,
         "mtime": "2026-06-24T16:42:33.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jcpy1adxyewiuzl/Depth_Scanner_2_v2.4.42_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1204,8 +1349,13 @@
         "type": "file",
         "size": 2250309,
         "mtime": "2026-06-24T16:44:12.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/taffbnp71s9ujya/Despill_Maestro_1.0.0_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1214,8 +1364,13 @@
         "type": "file",
         "size": 15971576,
         "mtime": "2026-06-24T16:44:25.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/lj5hzbqalnllj11/DigiEffects.Suite.v3.0.CE_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1224,8 +1379,13 @@
         "type": "file",
         "size": 22788232,
         "mtime": "2026-06-24T16:44:22.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/mlczsjaslrtk3hd/Diopter_1.0.5_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1234,8 +1394,13 @@
         "type": "file",
         "size": 3347840,
         "mtime": "2026-06-24T16:40:08.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/przp3mxvg41m6fj/Discotext_v1.2.6_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1244,8 +1409,13 @@
         "type": "file",
         "size": 236730,
         "mtime": "2026-06-24T16:40:11.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/dffppscslie2fuu/Displacer_Pro_v1.5.0_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1254,8 +1424,13 @@
         "type": "file",
         "size": 1173808,
         "mtime": "2026-06-24T16:44:26.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/4l96efh4fowu302/Dust_Transition_1.1.0._Adobe_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1264,8 +1439,13 @@
         "type": "file",
         "size": 305863029,
         "mtime": "2026-06-24T16:39:22.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ov3mk4zskzrohcs/Element_3D_2.2.3_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1274,8 +1454,13 @@
         "type": "file",
         "size": 967447,
         "mtime": "2026-06-24T16:40:17.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ehn6dpz1ka354vg/Extrude_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1284,8 +1469,13 @@
         "type": "file",
         "size": 2022,
         "mtime": "2026-06-24T16:42:48.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/zjv3qdsnl5amo4x/FilmConvert_Bundle_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1294,8 +1484,13 @@
         "type": "file",
         "size": 160203,
         "mtime": "2026-06-24T16:44:30.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/xf3tuhm8ik0zzv1/FluidMap_%2528WIN%2529_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1304,8 +1499,13 @@
         "type": "file",
         "size": 2723751,
         "mtime": "2026-06-24T16:43:14.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/3swct4si5qrdbjh/Frischluft_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1314,8 +1514,13 @@
         "type": "file",
         "size": 516315,
         "mtime": "2026-06-24T16:44:35.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/mb8ut1a21ki447b/Furikake_1.0.5_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1324,8 +1529,13 @@
         "type": "file",
         "size": 992063,
         "mtime": "2026-06-24T16:41:29.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/gdql995riierhp9/Glitchify_Win_Mac_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1334,8 +1544,13 @@
         "type": "file",
         "size": 2444624,
         "mtime": "2026-06-24T16:37:53.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/drs9jhx1r7m5rq2/HeatDistortion_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1344,8 +1559,13 @@
         "type": "file",
         "size": 22698997,
         "mtime": "2026-06-24T16:44:47.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ej96rnb78bx8ak6/HitFilm_Plugins_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1354,8 +1574,13 @@
         "type": "file",
         "size": 14547200,
         "mtime": "2026-06-24T16:42:43.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ev6jyh71b5fcda5/I_Ate_Mushrooms_v6.24_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1364,8 +1589,13 @@
         "type": "file",
         "size": 403007491,
         "mtime": "2026-06-24T16:47:32.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/z9qauprqnnhi3w0/IgnitePro_2021.1_Adobe_%2526_OFX_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1374,8 +1604,13 @@
         "type": "file",
         "size": 10832225,
         "mtime": "2026-06-24T16:39:21.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/8yeowu6qy2olqt0/Influx_v1.6.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1384,8 +1619,13 @@
         "type": "file",
         "size": 5823133,
         "mtime": "2026-06-24T16:42:29.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/14a1f5d8ewpz505/irrealix_Bundle_260215_Win.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1394,8 +1634,13 @@
         "type": "file",
         "size": 9933660,
         "mtime": "2026-06-24T16:39:31.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/904s5rd2bfrm99n/JPEG_Glitch_v1.0.4_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1404,8 +1649,13 @@
         "type": "file",
         "size": 2200339,
         "mtime": "2026-06-24T16:43:06.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/olc27a58r545vbw/L3tt3rM4pp3r2_v2.8_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1414,8 +1664,13 @@
         "type": "file",
         "size": 20904818,
         "mtime": "2026-06-24T16:44:55.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ih00xosyrsn3emx/Lockdown_v2.8.7_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1424,8 +1679,13 @@
         "type": "file",
         "size": 136557075,
         "mtime": "2026-06-24T16:43:42.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/dbbjl6et3odk63d/Mask_Prompter_3_v3.0.3_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1434,8 +1694,13 @@
         "type": "file",
         "size": 111618118,
         "mtime": "2026-06-24T16:45:51.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/qeh31shqs7derfq/Memleak_1.1.1_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1444,8 +1709,13 @@
         "type": "file",
         "size": 173248634,
         "mtime": "2026-06-24T16:43:23.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/b4tngjfqoq22y7a/Mettle_Plugins_bundle_WIN_2024.2_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1464,8 +1734,13 @@
         "type": "file",
         "size": 6808856,
         "mtime": "2026-06-24T16:39:35.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/15vjs6mfl8j5j9r/Modulation_v2.1_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1474,8 +1749,13 @@
         "type": "file",
         "size": 17543254,
         "mtime": "2026-06-24T16:45:05.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/s8hu52g6q9vefci/Neat_Video_Pro_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1484,8 +1764,13 @@
         "type": "file",
         "size": 14595089,
         "mtime": "2026-06-24T16:45:07.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jq47el8dszul0rf/Newton_4.0_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1499,8 +1784,13 @@
             "type": "file",
             "size": 53,
             "mtime": "2026-06-24T16:45:29.000Z",
-            "links": [],
-            "status": "pending",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/69fqkhhxde5ge9k/OLM_plugins.txt/file"
+              }
+            ],
+            "status": "ready",
             "downloadType": "external"
           }
         ]
@@ -1516,8 +1806,13 @@
             "type": "file",
             "size": 24,
             "mtime": "2026-06-24T16:45:53.000Z",
-            "links": [],
-            "status": "pending",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/z11id361c6h04dn/omino_suite.txt/file"
+              }
+            ],
+            "status": "ready",
             "downloadType": "external"
           }
         ]
@@ -1528,8 +1823,13 @@
         "type": "file",
         "size": 130371,
         "mtime": "2026-06-24T16:46:01.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ntgs5tahm8lq13k/PathBlurFX_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1538,8 +1838,13 @@
         "type": "file",
         "size": 3013162,
         "mtime": "2026-06-24T16:39:39.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/mn6i4c1eh46mpss/Physarum_v1.3_Win_Mac_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1548,8 +1853,13 @@
         "type": "file",
         "size": 176486,
         "mtime": "2026-06-24T16:46:08.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/q8nknewjxpi2y06/PixDither_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1558,8 +1868,13 @@
         "type": "file",
         "size": 167839,
         "mtime": "2026-06-24T16:46:13.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/il912b7ouyqbl1f/Pixel_Extender_1.0_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1568,8 +1883,13 @@
         "type": "file",
         "size": 7748764,
         "mtime": "2026-06-24T16:41:40.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/xdgky46wmj4q3kx/Pixel_Sorter_Studio_Bundle_%2528WIN%2529.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1578,8 +1898,13 @@
         "type": "file",
         "size": 367887,
         "mtime": "2026-06-24T16:41:27.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/i0opukhy73cl4fe/Polytrace_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1588,8 +1913,13 @@
         "type": "file",
         "size": 198784930,
         "mtime": "2026-06-24T16:39:30.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/knuc4vo79mfbblh/Pro_Shaders_1_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1608,8 +1938,13 @@
         "type": "file",
         "size": 29674210,
         "mtime": "2026-06-24T16:43:52.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/itxoe98qs2rargw/ProductionCrate_LaForge_Suite_Win_1.4.8.1_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1628,8 +1963,13 @@
         "type": "file",
         "size": 828928,
         "mtime": "2026-06-24T16:43:10.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/2tzi4xdpkndnvn1/RetroDither_v1.10_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1638,8 +1978,13 @@
         "type": "file",
         "size": 84828740,
         "mtime": "2026-06-24T16:38:13.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/uy077w4rotjk0h7/REVisionFX_bundle_23.08_WIN_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1648,8 +1993,13 @@
         "type": "file",
         "size": 163575680,
         "mtime": "2026-06-24T16:38:35.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/0g1gz42pdnuae4l/REVisionFX.Effections.Plus.v25.08_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1658,8 +2008,13 @@
         "type": "file",
         "size": 12559664,
         "mtime": "2026-06-24T16:41:43.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/5ebdvhoousobrr4/Rowbyte_Plugins_Bundle_2025.8_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1673,8 +2028,13 @@
             "type": "file",
             "size": 83,
             "mtime": "2026-06-24T16:38:33.000Z",
-            "links": [],
-            "status": "pending",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/zukom9cvrrpajgo/saber.txt/file"
+              }
+            ],
+            "status": "ready",
             "downloadType": "external"
           }
         ]
@@ -1685,8 +2045,13 @@
         "type": "file",
         "size": 3482540,
         "mtime": "2026-06-24T16:42:33.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/we7h37d5hd6rog1/Satori_Bundle_Win_250912.1_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1695,8 +2060,13 @@
         "type": "file",
         "size": 59765356,
         "mtime": "2026-06-24T16:40:47.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ahfm72771t6cuhp/Shadow_Studio_3_v1.0.7_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1705,8 +2075,13 @@
         "type": "file",
         "size": 322985,
         "mtime": "2026-06-24T16:39:53.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/94at1uzy5c993y7/Signal_1.2.3_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1715,8 +2090,13 @@
         "type": "file",
         "size": 91599371,
         "mtime": "2026-06-24T16:46:52.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/is4vj9yq213qi4s/Superluminal.Stardust.1.6.0c_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1725,8 +2105,13 @@
         "type": "file",
         "size": 550089,
         "mtime": "2026-06-24T16:40:28.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/uxgpnw4771z9fw5/TextBox_2_v1.2_WIN_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1735,8 +2120,13 @@
         "type": "file",
         "size": 548396,
         "mtime": "2026-06-24T16:40:52.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/m59u4c3que9vnlw/TextDelay_v1.7.5_WIN_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1745,8 +2135,13 @@
         "type": "file",
         "size": 17853,
         "mtime": "2026-06-28T13:29:34.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/1u67sl1ghn5xy40/TextSlice_1.2.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1755,8 +2150,13 @@
         "type": "file",
         "size": 3071723,
         "mtime": "2026-06-24T16:46:23.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/coef9waogbrx9lu/TheSauceCode_1.1.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1765,8 +2165,13 @@
         "type": "file",
         "size": 5665098,
         "mtime": "2026-06-24T16:43:25.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ylouxuvuxlczlmz/Tracery_v1.1_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1775,8 +2180,13 @@
         "type": "file",
         "size": 348100,
         "mtime": "2026-06-24T16:38:44.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/utapuazihwqzfhv/Twitch_Win_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1785,8 +2195,13 @@
         "type": "file",
         "size": 32975441,
         "mtime": "2026-06-24T16:37:43.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/caa7v0wrh1dz2yl/Twixtor_v8.1.0_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1795,8 +2210,13 @@
         "type": "file",
         "size": 87686755,
         "mtime": "2026-06-24T16:38:40.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/1gc4dxrwawm3zfe/VC_Optical_Flares_1.3.8_Win_Mac_-_satvrn.zip/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1810,8 +2230,13 @@
             "type": "file",
             "size": 69,
             "mtime": "2026-06-24T16:39:03.000Z",
-            "links": [],
-            "status": "pending",
+            "links": [
+              {
+                "provider": "MediaFire",
+                "url": "https://www.mediafire.com/file/scuhuiyrh7rzmyd/vccolor.txt/file"
+              }
+            ],
+            "status": "ready",
             "downloadType": "external"
           }
         ]
@@ -1822,8 +2247,13 @@
         "type": "file",
         "size": 257393209,
         "mtime": "2026-06-24T16:45:38.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/2ito2wydy5tvl93/Vimager_Bundle_1.6.60209_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -1832,8 +2262,13 @@
         "type": "file",
         "size": 149977,
         "mtime": "2026-06-24T16:46:31.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/s35hqgotgn2e301/xCloner.1.2.1_Win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       }
     ]
@@ -2592,8 +3027,13 @@
         "type": "file",
         "size": 24787219,
         "mtime": "2026-06-24T16:53:11.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/jwvaoro1ubox7fp/Cinema_4D_2026.0_win_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2602,8 +3042,13 @@
         "type": "file",
         "size": 158010,
         "mtime": "2026-06-24T16:51:44.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/aqpcjwuoufosa0v/Davinci_Resolve_Patcher_WIN_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2612,8 +3057,13 @@
         "type": "file",
         "size": 296759907,
         "mtime": "2026-06-24T16:56:29.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/ganhyg0q15ym7o6/FL_Studio_v25.1.6_Build_4997_Rev1_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2742,8 +3192,13 @@
         "type": "file",
         "size": 1391,
         "mtime": "2026-06-24T16:52:16.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/vj13xutkls0exzg/Topaz_Gigapixel_Activator_v2_%2528win%2529_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
@@ -2752,8 +3207,13 @@
         "type": "file",
         "size": 1391,
         "mtime": "2026-06-24T16:52:11.000Z",
-        "links": [],
-        "status": "pending",
+        "links": [
+          {
+            "provider": "MediaFire",
+            "url": "https://www.mediafire.com/file/4scancfdp3l5hgg/Topaz_Photo_Activator_v2_%2528win%2529_-_satvrn.7z/file"
+          }
+        ],
+        "status": "ready",
         "downloadType": "external"
       },
       {
