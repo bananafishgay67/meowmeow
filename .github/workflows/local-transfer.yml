@@ -1,0 +1,26 @@
+name: Upload original archives to GitHub Releases
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/local-transfer-input.json
+      - .github/workflows/local-transfer.yml
+permissions:
+  contents: write
+concurrency:
+  group: original-file-transfer
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Upload and verify original archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MIRROR_INPUT_PATH: .github/local-transfer-input.json
+        run: python3 .github/scripts/mirror-downloads.py
