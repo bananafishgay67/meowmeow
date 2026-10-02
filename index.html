@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-roGvBKzLSI+No1vePLUtCvE/E6KF377WSA5Qxdrrgqk='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-MiSMme46SsmiJ9l38eorv2VmE1x+ndD3z/4NW//ms+A='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="no-referrer">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>satvrn backup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>SATVRN — Editing Resources Vault</title>
+<meta name="description" content="Il tuo archivio di software, plugin, preset e risorse per il montaggio. Cerca, salva i preferiti e scegli il servizio di download.">
+<meta name="theme-color" content="#080720">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32'%3E%3Cstop offset='0' stop-color='%23c9bcff'/%3E%3Cstop offset='1' stop-color='%234a2fe0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cpath d='M16 6L18.2 13.8L26 16L18.2 18.2L16 26L13.8 18.2L6 16L13.8 13.8Z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css" integrity="sha384-Amzn4olt1DzKcamnc0ejzdJkVXDZuUXYZfSa4DKiYWKLMewTbAgmuDzqK0zufsXe" crossorigin="anonymous">
 <style>
@@ -1647,9 +1649,40 @@ kbd{
     .toast{bottom:calc(14px + env(safe-area-inset-bottom))}
   }
 }
+/* SATVRN: an editorial resource library, retaining the original violet identity. */
+:root{--r-lg:20px;--r-xl:28px}
+body{background:var(--bg);font-size:14px}
+[data-theme="dark"]{--text-muted:#aaa6c3;--text-secondary:#c3bfd8}.nav-btn{color:var(--text-secondary)}
+[data-theme="light"]{--text-muted:#67617d;--violet-3:#4930a4}[data-theme="light"] .hero-title{background:linear-gradient(120deg,#17102e,#6345cb);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}[data-theme="light"] .nav-btn.active{color:#4930a4}
+.topnav{background:color-mix(in srgb,var(--bg) 85%,transparent);border-bottom:1px solid var(--glass-border);backdrop-filter:blur(24px)}
+.topnav-logo{letter-spacing:-1px;font-size:24px}
+.topnav-links{gap:2px}.nav-btn{font-size:11px;padding:8px 9px}
+.home-hero{max-width:1440px;margin:auto;padding:80px 56px 48px;grid-template-columns:1.15fr .85fr;min-height:510px}
+.hero-title{font-size:clamp(64px,7.5vw,116px);line-height:.94;letter-spacing:-.065em;margin:24px 0}
+.hero-sub{font-size:16px;line-height:1.7;max-width:520px;color:var(--text-secondary)}
+.hero-eyebrow{letter-spacing:.18em;font-size:10px;color:var(--violet-3)}
+.hero-stats{padding-top:28px;border-top:1px solid var(--glass-border);margin-top:30px;gap:32px}
+.hstat-val{font-size:30px;letter-spacing:-1px;white-space:nowrap}.hstat-label{font-size:10px;letter-spacing:.08em}
+.hero-visual{position:relative;min-height:330px}.hero-ring{opacity:.5}
+.hero-center-icon{border-radius:28px;transform:rotate(-8deg);box-shadow:0 32px 110px rgba(124,106,238,.32)}
+.orbit-note{position:absolute;z-index:2;border:1px solid var(--glass-border);background:var(--glass-bg);backdrop-filter:blur(18px);border-radius:16px;padding:14px 18px;box-shadow:0 16px 45px #0002;font-size:12px;display:flex;align-items:center;gap:12px}.orbit-note i{color:var(--violet-2);font-size:23px}.orbit-note span{display:block;color:var(--text-muted);font-size:10px;margin-top:4px}.orbit-note.one{top:12%;left:0;transform:rotate(-5deg)}.orbit-note.two{bottom:9%;right:0;transform:rotate(4deg)}
+.home-section{max-width:1440px;margin:auto;padding:22px 56px 60px}.home-grid{gap:14px}.hcard{min-height:160px;border:1px solid var(--glass-border);background:linear-gradient(145deg,var(--surface-1),var(--surface-0));text-align:left;transition:transform .2s,border-color .2s,box-shadow .2s}.hcard:hover{transform:translateY(-5px);border-color:var(--violet);box-shadow:0 12px 42px #0002}.hcard-title{font-size:16px}.hcard-desc{font-size:12px;line-height:1.6}.category-count{display:block;margin-top:14px;font-size:10px;color:var(--text-muted);font-family:var(--font-mono)}
+.vault-strip{max-width:1328px;margin:0 auto 8px;border:1px solid var(--glass-border);border-radius:20px;background:var(--glass-bg);display:flex;justify-content:space-between;gap:20px;padding:22px 26px;align-items:center}.vault-strip strong{font-size:15px}.vault-strip p{font-size:12px;color:var(--text-muted);margin-top:7px;line-height:1.6}.vault-strip-actions{display:flex;gap:8px;flex-wrap:wrap}.vault-btn,.quick-filter{border:1px solid var(--glass-border);border-radius:10px;background:var(--surface-2);color:var(--text-secondary);padding:10px 14px;font:inherit;font-size:12px;cursor:pointer}.vault-btn:hover,.quick-filter:hover{border-color:var(--violet);color:var(--text-primary)}
+.browser-wrap{max-width:1440px;margin:auto}.page-header{max-width:1440px;margin:auto}.browser-toolbar{flex-wrap:wrap;gap:12px}.browser-search{min-width:180px}
+.vault-filters{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 20px}.quick-filter[aria-pressed="true"]{background:var(--violet-glow);color:var(--violet-3);border-color:var(--violet)}.provider-filter{margin-left:auto;max-width:180px}.filter-summary{font-size:11px;color:var(--text-muted);margin-left:4px}
+.file-grid{gap:14px;grid-template-columns:repeat(auto-fill,minmax(205px,1fr))}.resource-wrap{position:relative;min-width:0;display:flex}.resource-wrap .file-card{width:100%;min-height:180px;padding:24px 20px 22px;justify-content:flex-start;gap:18px;background:linear-gradient(155deg,var(--surface-1),var(--surface-0));border:1px solid var(--glass-border)}.file-card .fc-name{white-space:normal!important;overflow-wrap:anywhere;line-height:1.55;font-size:12px;padding-right:20px}.file-card .fc-icon{font-size:32px}.file-card .fc-meta{line-height:1.7;font-size:11px}.resource-actions{position:absolute;right:10px;top:10px;display:flex;gap:4px;z-index:1}.resource-tool{width:30px;height:30px;border-radius:8px;border:1px solid transparent;color:var(--text-muted);background:var(--surface-1);cursor:pointer}.resource-tool:hover{color:var(--text-primary);border-color:var(--glass-border)}.resource-tool[aria-pressed="true"]{color:var(--gold)}.file-grid.list-view .resource-wrap{grid-column:1/-1}.file-grid.list-view .resource-wrap .file-card{min-height:70px;padding-right:90px}.file-grid.list-view .resource-actions{top:20px}.file-grid.list-view .fc-name{white-space:normal!important}.file-card:disabled{opacity:.6!important}.file-card:disabled:hover{transform:none;box-shadow:none}
+.vault-dialog{border:1px solid var(--glass-border);border-radius:24px;background:var(--surface-1);color:var(--text-primary);padding:30px;max-width:560px;width:calc(100% - 32px);margin:auto;box-shadow:0 30px 100px #0006}.vault-dialog::backdrop{background:#03030cca;backdrop-filter:blur(10px)}.dialog-top{display:flex;justify-content:space-between;gap:16px;align-items:center}.dialog-label{font-family:var(--font-mono);font-size:10px;color:var(--violet-2);letter-spacing:.12em}.vault-dialog h2{font-size:23px;line-height:1.4;overflow-wrap:anywhere;margin:22px 0 12px}.detail-path{font-size:12px;color:var(--text-muted);overflow-wrap:anywhere}.detail-facts{display:flex;gap:10px;margin:24px 0;flex-wrap:wrap}.detail-facts span{padding:8px 12px;border:1px solid var(--glass-border);border-radius:8px;font-size:12px}.detail-links{display:grid;gap:10px}.detail-link{display:flex;justify-content:space-between;align-items:center;color:var(--text-primary);text-decoration:none;border:1px solid var(--glass-border);border-radius:12px;background:var(--surface-2);padding:15px 18px}.detail-link:hover{border-color:var(--violet)}.detail-note{margin-top:18px;font-size:12px;line-height:1.65;color:var(--text-muted)}
+.vault-footer{max-width:1328px;margin:0 auto;padding:28px 0 38px;border-top:1px solid var(--glass-border);display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--text-muted)}.vault-footer span{display:block;margin-top:7px}.vault-footer button,.vault-footer a{align-self:flex-start;text-decoration:none}
+:focus-visible{outline:2px solid var(--violet-2)!important;outline-offset:4px}.skip-link{position:fixed;top:-80px;left:16px;z-index:9999;padding:12px 18px;border-radius:10px;background:var(--surface-3);color:var(--text-primary)}.skip-link:focus{top:12px}.search-result-item:focus-visible{background:var(--violet-glow)}
+@media(min-width:1100px) and (max-width:1450px){.user-pill{display:none}.topnav-search{max-width:200px}.nav-btn{padding:8px 6px;font-size:10px}}
+@media(max-width:900px){.home-hero{padding:48px 24px 32px;min-height:auto}.hero-title{font-size:80px}.hero-visual{display:none}.home-section{padding:24px}.vault-strip{margin:0 24px;flex-direction:column;align-items:flex-start}.vault-footer{margin:0 24px}.vault-filters{gap:6px}.provider-filter{margin-left:0}.quick-filter{padding:9px 11px}.hstat-val{font-size:26px}}
+@media(max-width:520px){.hero-title{font-size:68px}.hero-stats{gap:18px}.hstat-label{font-size:8px}.home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hcard{padding:18px!important;min-height:170px}.hcard-title{font-size:14px}.hcard-desc{font-size:11px}.file-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.resource-wrap .file-card{padding:20px 13px;min-height:210px}.file-card .fc-name{padding-right:0;font-size:11px}.file-card .fc-icon{margin-bottom:12px}.file-grid.list-view .resource-wrap .file-card{padding-right:77px}.vault-footer{flex-direction:column}.vault-dialog{padding:22px}.hero-sub{font-size:14px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero-orbit,.hero-orbit2{display:none}}
+
 </style>
 
 <body>
+<a class="skip-link" href="#page-home">Vai al contenuto</a>
 <canvas id="aurora-canvas"></canvas>
 
 <!-- MOBILE DRAWER -->
@@ -1734,7 +1767,7 @@ kbd{
 </header>
 
 <!-- HOME PAGE -->
-<div class="page active" id="page-home">
+<div class="page active" id="page-home" tabindex="-1">
   <div class="home-hero">
     <div>
       <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Editing Resources Vault</div>
@@ -1756,9 +1789,10 @@ kbd{
       <div class="hero-ring"></div><div class="hero-ring"></div><div class="hero-ring"></div>
       <div class="hero-orbit"><div class="hero-orbit-dot"></div></div>
       <div class="hero-orbit2"><div class="hero-orbit2-dot"></div></div>
-      <div class="hero-center-icon"><i class="ti ti-brand-adobe"></i></div>
+      <div class="orbit-note one"><i class="ti ti-folder-heart"></i><div>Il tuo prossimo progetto<span>Risorse, idee, possibilità.</span></div></div><div class="orbit-note two"><i class="ti ti-cloud-download"></i><div>Sempre a portata di click<span>GitHub · MEGA · Drive · MediaFire</span></div></div><div class="hero-center-icon"><i class="ti ti-brand-adobe"></i></div>
     </div>
   </div>
+<div class="vault-strip"><div><strong>Il tuo spazio creativo, tutto in ordine.</strong><p><span id="vault-online-count">—</span> risorse disponibili · <span id="vault-pending-count">—</span> in attesa di caricamento. I preferiti restano su questo dispositivo.</p></div><div class="vault-strip-actions"><button class="vault-btn" id="vault-browse-ready">Esplora i download ↗</button><button class="vault-btn" id="vault-browse-favorites">★ Preferiti</button><button class="vault-btn" id="vault-browse-missing">Da caricare</button></div></div>
   <div class="home-section">
     <div class="section-header">
       <span class="section-label">Browse</span>
@@ -1861,7 +1895,7 @@ kbd{
       </div>
     </div>
     <nav class="breadcrumb" id="breadcrumb"></nav>
-    <div class="file-grid" id="file-grid">
+    <div class="vault-filters" aria-label="Filtri delle risorse"><button class="quick-filter" data-availability="all" aria-pressed="true">Tutti</button><button class="quick-filter" data-availability="ready" aria-pressed="false">Disponibili</button><button class="quick-filter" data-availability="pending" aria-pressed="false">Da caricare</button><button class="quick-filter" id="favorites-filter" aria-pressed="false">★ Preferiti</button><select class="sort-select provider-filter" id="provider-filter" aria-label="Servizio di download"><option value="all">Tutti i servizi</option><option>GitHub</option><option>MEGA</option><option>Google Drive</option><option>MediaFire</option></select><button class="quick-filter" id="reset-filters">Reset</button><span id="filter-summary" class="filter-summary" role="status"></span></div><div class="file-grid" id="file-grid">
       <div class="empty-state"><i class="ti ti-loader"></i>Loading...</div>
     </div>
   </div>
@@ -2052,8 +2086,9 @@ kbd{
   </div>
 </div>
 
+<dialog class="vault-dialog" id="resource-dialog" aria-labelledby="detail-name"><div class="dialog-top"><span class="dialog-label">RESOURCE / SATVRN VAULT</span><button class="vault-btn" id="detail-close" aria-label="Chiudi dettagli">✕</button></div><h2 id="detail-name"></h2><p class="detail-path" id="detail-path"></p><div class="detail-facts"><span id="detail-size"></span><span id="detail-status"></span></div><div class="detail-links" id="detail-links"></div><p class="detail-note" id="detail-note"></p></dialog><footer class="vault-footer"><div><strong>SATVRN / Editing Resources Vault</strong><span>Download sui servizi esterni · Nessun account richiesto dal sito</span><span>Ctrl / ⌘ K per cercare · Esc per chiudere</span></div><a class="vault-btn" id="export-missing" href="./file-mancanti.txt" download="satvrn-file-mancanti.txt">Elenco file da caricare ↓</a><button class="vault-btn" id="vault-top">Torna su ↑</button></footer>
 <!-- TOAST -->
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <!-- TRANSFER MONITOR HUD -->
 <div class="speed-hud" id="speed-hud">
@@ -2088,7 +2123,7 @@ kbd{
 
 <!-- KEYBOARD HINT -->
 <div class="kb-hint" id="kb-hint" style="display:none">
-  <kbd>⌘K</kbd> Search &nbsp; <kbd>⌘L</kbd> Light mode
+  <kbd>⌘K</kbd> Search &nbsp; <kbd>⌘⇧L</kbd> Light mode
 </div>
 
 <script>
@@ -2096,7 +2131,7 @@ kbd{
 
 /* ─── AURORA ─── */
 (function(){
-  var c=document.getElementById('aurora-canvas'),ctx=c.getContext('2d'),W,H,t=0;
+  var c=document.getElementById('aurora-canvas'),ctx=c.getContext('2d'),W,H,t=0;if(!ctx)return;var reduced=matchMedia('(prefers-reduced-motion: reduce)');
   function resize(){W=c.width=window.innerWidth;H=c.height=window.innerHeight}
   resize();window.addEventListener('resize',resize,{passive:true});
   var blobs=[
@@ -2112,9 +2147,9 @@ kbd{
       g.addColorStop(0,'rgba('+b.color+',0.20)');g.addColorStop(1,'rgba('+b.color+',0)');
       ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill()
     });
-    t++;requestAnimationFrame(draw)
+    t++;if(!reduced.matches&&!document.hidden)requestAnimationFrame(draw)
   }
-  draw()
+  draw();document.addEventListener('visibilitychange',function(){if(!document.hidden&&!reduced.matches)draw()});reduced.addEventListener('change',function(){if(!reduced.matches)draw()});
 })();
 
 /* ─── RIPPLE ─── */
@@ -2130,9 +2165,9 @@ document.querySelectorAll('.ripple-host').forEach(addRipple);
 
 /* ─── THEME ─── */
 var THEME_KEY='satvrn_theme';
-function getTheme(){return localStorage.getItem(THEME_KEY)||'dark'}
+function getTheme(){return (storageRead(THEME_KEY,'dark')==='light'?'light':'dark')}
 function setTheme(t){
-  document.documentElement.setAttribute('data-theme',t);localStorage.setItem(THEME_KEY,t);
+  document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem(THEME_KEY,JSON.stringify(t))}catch(e){}
   var lbl=document.getElementById('mobile-theme-label'),ico=document.getElementById('mobile-theme-icon');
   if(lbl)lbl.textContent=t==='dark'?'Light mode':'Dark mode';
   if(ico)ico.className=t==='dark'?'ti ti-sun':'ti ti-moon';
@@ -2157,7 +2192,7 @@ document.getElementById('hud-close').addEventListener('click',hideHUD);
 
 function downloadWithTelemetry(url,filename){
   if(!url){showToast('This file is not online yet.',false,true);return}
-  var parsed;try{parsed=new URL(url,location.href)}catch(e){showToast('Invalid download link.',false,true);return}if(parsed.protocol!=='https:'&&parsed.origin!==location.origin){showToast('Unsafe download link.',false,true);return}var a=document.createElement('a');a.href=parsed.href;a.rel='noopener noreferrer';if(url.indexOf('/api/download/')===0){a.download=filename||'';}else{a.target='_blank';}
+  var parsed;try{parsed=new URL(url,location.href)}catch(e){showToast('Invalid download link.',false,true);return}if(!isSafeResourceUrl(parsed.href)){showToast('Unsafe download link.',false,true);return}var a=document.createElement('a');a.href=parsed.href;a.rel='noopener noreferrer';if(url.indexOf('/api/download/')===0){a.download=filename||'';}else{a.target='_blank';}
   document.body.appendChild(a);a.click();a.remove();
   showToast(url.indexOf('/api/download/')===0?'Download started. Check your browser downloads.':'Download page opened in a new tab',true);
 }
@@ -2183,7 +2218,7 @@ function runSearch(q){if(!q.trim()||!searchIndex.length)return[];var ql=q.toLowe
 function loadTree(cb){
   if(fileTree){if(!searchIndex.length){searchIndex=[];buildSearchIndex(fileTree,'')}cb&&cb(null,fileTree);return}
   if(cb)treeCallbacks.push(cb);if(treeLoading)return;treeLoading=true;
-  fetch('./catalog.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(d){fileTree=d;searchIndex=[];buildSearchIndex(d,'');treeLoading=false;updateHeroStats(d);var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(null,d)})}).catch(function(e){treeLoading=false;var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(e,null)})})
+  fetch('./catalog.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(d){d=validateVaultCatalog(d);fileTree=d;searchIndex=[];buildSearchIndex(d,'');treeLoading=false;updateHeroStats(d);var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(null,d)})}).catch(function(e){treeLoading=false;var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(e,null)})})
 }
 function countNodes(nodes){var files=0,size=0;nodes.forEach(function(n){if(n.type==='folder'&&n.children){var c=countNodes(n.children);files+=c.files;size+=c.size}else{files++;size+=n.size||0}});return{files:files,size:size}}
 function updateHeroStats(tree){var c=countNodes(tree);document.getElementById('stat-files').textContent=c.files.toLocaleString();document.getElementById('stat-size').textContent=formatSize(c.size);var available=0;function walk(nodes){nodes.forEach(function(n){if(n.children)walk(n.children);else if(n.status==='ready')available++})}walk(tree);document.getElementById('stat-online').textContent=available.toLocaleString()}
@@ -2192,7 +2227,7 @@ function renderSearchDropdown(results,container,onSelect){
   if(!results.length){var empty=document.createElement('div');empty.className='search-result-empty';empty.innerHTML='<i class="ti ti-search-off"></i>No results found';container.appendChild(empty);return}
   var hdr=document.createElement('div');hdr.className='search-dropdown-header';hdr.textContent=results.length+' result'+(results.length===1?'':'s');container.appendChild(hdr);
   results.forEach(function(item){
-    var row=document.createElement('div');row.className='search-result-item';var ico=getIcon(item);
+    var row=document.createElement('div');row.className='search-result-item';row.tabIndex=0;row.setAttribute('role','button');row.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();onSelect(item)}});var ico=getIcon(item);
     row.innerHTML='<div class="search-result-icon-wrap"><i class="ti '+ico.cls+' search-result-icon" style="color:'+ico.color+'"></i></div><div style="min-width:0;flex:1"><div class="search-result-name">'+escapeHTML(item.name)+'</div><div class="search-result-path">'+escapeHTML(item.path||'Root')+'</div></div><span class="search-result-type '+(item.type==='folder'?'folder':'file')+'">'+(item.type==='folder'?'folder':escapeHTML((item.name.split('.').pop()||'file').toUpperCase().slice(0,4)))+'</span>';
     row.addEventListener('click',function(){onSelect(item)});container.appendChild(row)
   })
@@ -2235,7 +2270,7 @@ function renderFiles(){
     if(err||!tree){grid.innerHTML='<div class="empty-state"><i class="ti ti-wifi-off"></i>Could not load files.</div>';return}
     var nodes=nodesAtPath(tree,currentPath);
     if(!nodes||!nodes.length){grid.innerHTML='<div class="empty-state"><i class="ti ti-folder-off"></i>Empty folder.</div>';return}
-    var filtered=nodes.filter(function(n){return!browserFilter||n.name.toLowerCase().indexOf(browserFilter.toLowerCase())!==-1});
+    var filtered=nodes.filter(function(n){return vaultMatches(n)&&(!browserFilter||n.name.toLowerCase().indexOf(browserFilter.toLowerCase())!==-1)});document.getElementById('filter-summary').textContent=filtered.length+' risultati';
     var sorted=sortNodes(filtered.slice());
     if(!sorted.length){grid.innerHTML='<div class="empty-state"><i class="ti ti-search-off"></i>No files match.</div>';return}
     var totalBytes=0,fileCount=0;sorted.forEach(function(n){if(n.type!=='folder'){totalBytes+=n.size||0;fileCount++}});
@@ -2261,7 +2296,7 @@ function renderFiles(){
         });
         card.addEventListener('contextmenu',function(e){e.preventDefault();ctxTarget=item;openCtxMenu(e.clientX,e.clientY)})
       }
-      grid.appendChild(card)
+      grid.appendChild(enhanceResourceCard(card,item))
     })
   })
 }
@@ -2324,6 +2359,37 @@ function resolveSearchNav(item){
 }
 
 /* ─── MAIN INIT ─── */
+/* Runs within the existing app closure. Preferences stay on this device. */
+var vaultAvailability='all',vaultProvider='all',vaultOnlyFavorites=false;
+function storageRead(key,fallback){try{var raw=localStorage.getItem(key);return(raw==='light'||raw==='dark'?raw:JSON.parse(raw))||fallback}catch(e){return fallback}}
+var vaultFavorites=storageRead('satvrn_favorites',[]);
+if(!Array.isArray(vaultFavorites))vaultFavorites=[];
+vaultFavorites=vaultFavorites.filter(function(s){return typeof s==='string'&&s.length<500}).slice(0,500);
+function saveFavorites(){try{localStorage.setItem('satvrn_favorites',JSON.stringify(vaultFavorites))}catch(e){showToast('Impossibile salvare i preferiti su questo dispositivo.',false,true)}}
+function isSafeResourceUrl(value){try{var u=new URL(value);if(u.protocol!=='https:'||u.username||u.password||u.port)return false;return (u.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/releases\/download\//.test(u.pathname))||(u.hostname==='drive.google.com'&&/^\/file\/d\/[\w-]+\/view$/.test(u.pathname))||((u.hostname==='www.mediafire.com'||u.hostname==='mediafire.com')&&u.pathname.indexOf('/file/')===0)||(u.hostname==='mega.nz'&&/^\/file\/[\w-]{8}$/.test(u.pathname)&&/^#[\w-]{43}$/.test(u.hash))}catch(e){return false}}
+function validateVaultCatalog(tree){var total=0,seen=new Set();function scan(nodes,depth){if(!Array.isArray(nodes)||depth>10)throw Error('Invalid catalog');nodes.forEach(function(n){if(++total>5000||!n||typeof n.name!=='string'||n.name.length>500||typeof n.rel!=='string'||n.rel.length>1000||seen.has(n.rel))throw Error('Invalid resource');seen.add(n.rel);if(n.children)scan(n.children,depth+1);else{if(!Number.isSafeInteger(n.size)||n.size<0||!Array.isArray(n.links)||n.links.length>10)throw Error('Invalid metadata');n.links.forEach(function(l){if(!l||typeof l.provider!=='string'||l.provider.length>40||!isSafeResourceUrl(l.url))throw Error('Invalid download destination')});if(n.status==='ready'&&!n.links.length)throw Error('Missing ready link')}})}scan(tree,0);return tree}
+function flattenVault(nodes){var out=[];(nodes||[]).forEach(function(n){if(n.children)out=out.concat(flattenVault(n.children));else out.push(n)});return out}
+function vaultMatches(n){if(n.children)return flattenVault(n.children).some(vaultMatches);return(vaultAvailability==='all'||(vaultAvailability==='ready'?n.status==='ready':n.status!=='ready'))&&(vaultProvider==='all'||n.links.some(function(l){return l.provider===vaultProvider}))&&(!vaultOnlyFavorites||vaultFavorites.indexOf(n.rel)!==-1)}
+function toggleFavorite(rel){var i=vaultFavorites.indexOf(rel);if(i===-1)vaultFavorites.push(rel);else vaultFavorites.splice(i,1);saveFavorites();renderFiles();showToast(i===-1?'Aggiunto ai preferiti':'Rimosso dai preferiti',true)}
+function enhanceResourceCard(card,item){if(item.children)return card;var wrap=document.createElement('div');wrap.className='resource-wrap';wrap.appendChild(card);var tools=document.createElement('div');tools.className='resource-actions';var fav=document.createElement('button');fav.type='button';fav.className='resource-tool';fav.textContent='★';fav.title='Salva nei preferiti';fav.setAttribute('aria-label','Preferito: '+item.name);fav.setAttribute('aria-pressed',String(vaultFavorites.indexOf(item.rel)!==-1));fav.addEventListener('click',function(){toggleFavorite(item.rel)});var detail=document.createElement('button');detail.type='button';detail.className='resource-tool';detail.textContent='↗';detail.title='Dettagli e altri link';detail.setAttribute('aria-label','Dettagli: '+item.name);detail.addEventListener('click',function(){showResourceDetails(item)});tools.append(fav,detail);wrap.appendChild(tools);return wrap}
+function showResourceDetails(item){var dialog=document.getElementById('resource-dialog');document.getElementById('detail-name').textContent=item.name;document.getElementById('detail-path').textContent=item.rel.split('/').slice(0,-1).join(' / ');document.getElementById('detail-size').textContent=formatSize(item.size);document.getElementById('detail-status').textContent=item.status==='ready'?'Disponibile':'Da caricare';var links=document.getElementById('detail-links');links.replaceChildren();item.links.forEach(function(l){if(!isSafeResourceUrl(l.url))return;var a=document.createElement('a');a.className='detail-link';a.href=l.url;a.target='_blank';a.rel='noopener noreferrer';var name=document.createElement('span');name.textContent='Scarica da '+l.provider;var arrow=document.createElement('span');arrow.textContent='↗';a.append(name,arrow);links.appendChild(a)});document.getElementById('detail-note').textContent=item.links.length?'Il download si apre sul servizio scelto. Password degli archivi, se richiesta: star.':'Questo archivio è presente nel catalogo ma non è stato ancora caricato.';dialog.showModal()}
+function openVaultFilter(availability,favorites){vaultAvailability=availability;vaultOnlyFavorites=!!favorites;vaultProvider='all';syncVaultFilters();goBrowser('archive')}
+function syncVaultFilters(){document.querySelectorAll('[data-availability]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.availability===vaultAvailability))});document.getElementById('favorites-filter').setAttribute('aria-pressed',String(vaultOnlyFavorites));document.getElementById('provider-filter').value=vaultProvider}
+function vaultCatalogLoaded(tree){var all=flattenVault(tree),ready=all.filter(function(n){return n.status==='ready'}).length,pending=all.length-ready;document.getElementById('vault-online-count').textContent=ready;document.getElementById('vault-pending-count').textContent=pending;document.querySelectorAll('.hcard').forEach(function(card){var sub=card.id.replace('hcard-','');if(!browserMeta[sub])return;var folder=browserMeta[sub].folder;var entries=folder?all.filter(function(n){return n.rel.split('/')[0]===folder}):all;var label=card.querySelector('.category-count');if(!label){label=document.createElement('span');label.className='category-count';card.appendChild(label)}label.textContent=entries.filter(function(n){return n.status==='ready'}).length+' / '+entries.length+' disponibili'})}
+function setupVaultUpgrade(){
+ document.querySelectorAll('[data-availability]').forEach(function(b){b.addEventListener('click',function(){vaultAvailability=b.dataset.availability;syncVaultFilters();renderFiles()})});
+ document.getElementById('favorites-filter').addEventListener('click',function(){vaultOnlyFavorites=!vaultOnlyFavorites;syncVaultFilters();renderFiles()});
+ document.getElementById('provider-filter').addEventListener('change',function(){vaultProvider=this.value;renderFiles()});
+ document.getElementById('reset-filters').addEventListener('click',function(){vaultAvailability='all';vaultProvider='all';vaultOnlyFavorites=false;browserFilter='';document.getElementById('browser-filter-input').value='';syncVaultFilters();renderFiles()});
+ document.getElementById('vault-browse-ready').addEventListener('click',function(){openVaultFilter('ready',false)});
+ document.getElementById('vault-browse-missing').addEventListener('click',function(){openVaultFilter('pending',false)});
+ document.getElementById('vault-browse-favorites').addEventListener('click',function(){openVaultFilter('all',true)});
+ document.getElementById('detail-close').addEventListener('click',function(){document.getElementById('resource-dialog').close()});
+ document.getElementById('resource-dialog').addEventListener('click',function(e){if(e.target===this){var r=this.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)this.close()}});
+ document.getElementById('vault-top').addEventListener('click',function(){window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'})});
+ loadTree(function(err,tree){if(!err)vaultCatalogLoaded(tree)});
+}
+
 var appInited=false;
 function init(){
   if(appInited)return;appInited=true;
@@ -2374,7 +2440,7 @@ function init(){
   /* Keyboard shortcuts */
   document.addEventListener('keydown',function(e){
     if((e.metaKey||e.ctrlKey)&&e.key==='k'){e.preventDefault();dInput.focus();dInput.select()}
-    if((e.metaKey||e.ctrlKey)&&e.key==='l'){e.preventDefault();var n=getTheme()==='dark'?'light':'dark';setTheme(n);showToast(n==='light'?'Light mode on':'Dark mode on',true)}
+    if((e.metaKey||e.ctrlKey)&&e.shiftKey&&e.key.toLowerCase()==='l'){e.preventDefault();var n=getTheme()==='dark'?'light':'dark';setTheme(n);showToast(n==='light'?'Light mode on':'Dark mode on',true)}
     if(e.key==='Escape'){dDropdown.classList.remove('open');dInput.blur();searchWrap.classList.remove('focused')}
   });
 
@@ -2384,7 +2450,7 @@ function init(){
   document.getElementById('mobile-nav-drawer').addEventListener('touchend',function(e){if(startX-e.changedTouches[0].clientX>55)closeMobileNav()},{passive:true});
 
   loadTree(function(){});
-  setupToc()
+  setupToc();setupVaultUpgrade()
 }
 document.getElementById('topnav').style.display='flex';init();
 })();
