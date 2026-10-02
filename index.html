@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-spmwARo1d4Ean/7W6L1Zo0frdU4TMBVjKDtxyEBTMgQ='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-hBTnZGSVQ1StjuVzhNVn6s9rc326NdWsZQUEAEQOZRg='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="no-referrer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -2213,7 +2213,7 @@ function runSearch(q){if(!q.trim()||!searchIndex.length)return[];var ql=q.toLowe
 function loadTree(cb){
   if(fileTree){if(!searchIndex.length){searchIndex=[];buildSearchIndex(fileTree,'')}cb&&cb(null,fileTree);return}
   if(cb)treeCallbacks.push(cb);if(treeLoading)return;treeLoading=true;
-  fetch('./catalog.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(d){d=validateVaultCatalog(d);fileTree=d;searchIndex=[];buildSearchIndex(d,'');treeLoading=false;updateHeroStats(d);var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(null,d)})}).catch(function(e){treeLoading=false;var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(e,null)})})
+  fetch('./catalog.json?v=774398fb5438a25a',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(d){d=validateVaultCatalog(d);fileTree=d;searchIndex=[];buildSearchIndex(d,'');treeLoading=false;updateHeroStats(d);var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(null,d)})}).catch(function(e){treeLoading=false;var cbs=treeCallbacks.splice(0);cbs.forEach(function(fn){fn(e,null)})})
 }
 function countNodes(nodes){var files=0,size=0;nodes.forEach(function(n){if(n.type==='folder'&&n.children){var c=countNodes(n.children);files+=c.files;size+=c.size}else{files++;size+=n.size||0}});return{files:files,size:size}}
 function updateHeroStats(tree){var c=countNodes(tree);document.getElementById('stat-files').textContent=c.files.toLocaleString();document.getElementById('stat-size').textContent=formatSize(c.size);var available=0;function walk(nodes){nodes.forEach(function(n){if(n.children)walk(n.children);else if(n.status==='ready')available++})}walk(tree);document.getElementById('stat-online').textContent=available.toLocaleString()}
