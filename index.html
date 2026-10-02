@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YXgnR5Wm/6oz6YIQHMppRVqFdw/h6c3JdGbZmm/fc9o='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-roGvBKzLSI+No1vePLUtCvE/E6KF377WSA5Qxdrrgqk='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src https://cdn.jsdelivr.net data:; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="no-referrer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -9,6 +9,7 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='32' y2='32'%3E%3Cstop offset='0' stop-color='%23c9bcff'/%3E%3Cstop offset='1' stop-color='%234a2fe0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Cpath d='M16 6L18.2 13.8L26 16L18.2 18.2L16 26L13.8 18.2L6 16L13.8 13.8Z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.7.0/dist/tabler-icons.min.css" integrity="sha384-Amzn4olt1DzKcamnc0ejzdJkVXDZuUXYZfSa4DKiYWKLMewTbAgmuDzqK0zufsXe" crossorigin="anonymous">
 <style>
+.file-card .fc-name{white-space:normal;overflow-wrap:anywhere;line-height:1.45}.file-card:disabled{cursor:default}.file-grid.list-view .fc-name{white-space:normal;overflow-wrap:anywhere}
 /* ══════════════════════════════════════════════
    RESET + BASE
 ══════════════════════════════════════════════ */
@@ -1744,13 +1745,7 @@ kbd{
         <button class="btn-ghost ripple-host" id="btn-archive"><i class="ti ti-folders"></i> Archive</button>
         <button class="btn-warn ripple-host" id="btn-updates"><i class="ti ti-sparkles"></i> Updates</button>
       </div>
-      <section id="mega-downloads" aria-label="Download da MEGA" style="margin:24px 0"><h2 style="font-size:18px;margin-bottom:12px">Download da MEGA</h2><div class="hero-actions"><a class="btn-ghost" href="https://mega.nz/file/QyZgGQ4Q#VhgAfcydUtm2f7t8na36Ynxbabs01GzWlNQVB6Zo29I" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 1 ↗</a>
-<a class="btn-ghost" href="https://mega.nz/file/YqoHXbjL#CxB5yQRZdWgPoaEOLIUG3tgXdHMRXqPyEg548zYUqtk" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 2 ↗</a>
-<a class="btn-ghost" href="https://mega.nz/file/g2oiFarI#c6QA-nreJBSr4Aa62hSUanhNJaqBQ6J5Hk4_CaiUCEM" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 3 ↗</a>
-<a class="btn-ghost" href="https://mega.nz/file/oz4lDYKZ#8orIEwDcG9OBFJPXTIUiJz9eeTI6n9oRfapxixvKr2M" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 4 ↗</a>
-<a class="btn-ghost" href="https://mega.nz/file/wvZATDZS#1Xe3Do3oHxfyjMfUTvVG9sW56soSB3wvY3cVO6pXPUU" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 5 ↗</a>
-<a class="btn-ghost" href="https://mega.nz/file/I2wS2RCb#6WKvTuzvkwH23rNZadxMUgDcz0gWDgM1sr0Fr08WbeM" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer">MEGA 6 ↗</a></div></section>
-<div class="hero-stats">
+      <div class="hero-stats">
         <div class="hstat"><span class="hstat-val" id="stat-files">—</span><span class="hstat-label">Files</span></div>
         <div class="hstat"><span class="hstat-val" id="stat-size">—</span><span class="hstat-label">Total size</span></div>
         <div class="hstat"><span class="hstat-val" id="stat-online">—</span><span class="hstat-label">Downloads available</span></div>
@@ -2249,15 +2244,15 @@ function renderFiles(){
     document.getElementById('browser-size-label').textContent=formatSize(totalBytes);
     grid.innerHTML='';
     sorted.forEach(function(item,idx){
-      var card=document.createElement('button');card.className='file-card ripple-host';
+      var card=document.createElement('button');card.className='file-card ripple-host';card.title=item.name;
       card.style.animationDelay=(idx*.022)+'s';card.style.animation='card-rise .38s cubic-bezier(.22,1,.36,1) both';
-      var ico=getIcon(item);var meta=item.type==='folder'?(item.children?item.children.length:0)+' items':formatSize(item.size)+' · '+(item.status==='ready'?'Download':item.status==='unavailable'?'Temporarily unavailable':'Not transferred yet');
+      var ico=getIcon(item);var meta=item.type==='folder'?(item.children?item.children.length:0)+' items':formatSize(item.size)+' · '+(item.status==='ready'?'Scarica · '+escapeHTML(item.links[0].provider):item.status==='awaiting-link'?'Caricato su MEGA · link da associare':item.status==='unavailable'?'Temporaneamente non disponibile':'Da caricare');
       card.innerHTML='<div class="dl-progress"><div class="dl-progress-bar" id="dlbar-'+idx+'"></div></div><div class="fc-icon"><i class="ti '+ico.cls+'" style="color:'+ico.color+'"></i></div><div class="fc-name" title="'+escapeHTML(item.name)+'">'+escapeHTML(item.name)+'</div><div class="fc-meta">'+meta+'</div>';
       addRipple(card);
       if(item.type==='folder'){
         card.addEventListener('click',function(){currentPath.push({name:item.name,rel:item.rel});renderBreadcrumb();renderFiles()})
       } else {
-        if(item.status!=='ready'){card.style.opacity='.55';card.title=(item.status==='unavailable'?'Download temporarily unavailable':'This archive has not been uploaded yet');card.setAttribute('aria-disabled','true');}
+        if(item.status!=='ready'){card.style.opacity='.55';card.title=(item.status==='awaiting-link'?'Caricato su MEGA: collegamento da associare':item.status==='unavailable'?'Download temporaneamente non disponibile':'File non ancora caricato');card.setAttribute('aria-disabled','true');card.disabled=true;}
         card.addEventListener('click',function(){
           var bar=card.querySelector('.dl-progress-bar');
           var dlUrl=fileDownloadUrl(item.rel);
